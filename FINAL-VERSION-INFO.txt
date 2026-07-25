@@ -1,0 +1,11 @@
+Prof. Dr. Khaled Fouad Khaled — Official Academic Website
+Final build: 2026-07-23 05:35:56 (Africa/Cairo)
+
+Main entry file: index.html
+Public home page: 00-home-page.html
+About page portrait: images/about-prof-khaled-office-portrait.png
+GitHub guide: GITHUB-PAGES-UPLOAD-GUIDE.md
+
+This final package includes the bilingual pages, owner editing tools, responsive image handling,
+the shared contact and collaboration panel, Google Scholar statistics widget, research records,
+publications, projects, research group, teaching, books, and scientific activity pages.

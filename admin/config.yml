@@ -1,0 +1,61 @@
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPOSITORY
+  branch: main
+  # Configure an OAuth proxy before production use. See CMS-SETUP.md.
+local_backend: true
+publish_mode: editorial_workflow
+media_folder: images/cms
+public_folder: /images/cms
+site_url: https://YOUR-DOMAIN.example
+display_url: https://YOUR-DOMAIN.example
+logo_url: /images/home-hero-prof-khaled.webp
+locale: en
+collections:
+  - name: site_settings
+    label: Site settings
+    files:
+      - name: settings
+        label: Integrations and settings
+        file: content/settings.json
+        fields:
+          - {label: Site URL, name: siteUrl, widget: string}
+          - {label: Plausible domain, name: plausibleDomain, widget: string, required: false}
+          - {label: Turnstile site key, name: turnstileSiteKey, widget: string, required: false}
+          - {label: ORCID iD, name: orcidId, widget: string}
+  - name: news
+    label: News and insights
+    folder: content/news
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: English title, name: title_en, widget: string}
+      - {label: Arabic title, name: title_ar, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Summary English, name: summary_en, widget: text}
+      - {label: Summary Arabic, name: summary_ar, widget: text}
+      - {label: Featured image, name: image, widget: image, required: false}
+      - {label: English body, name: body_en, widget: markdown}
+      - {label: Arabic body, name: body_ar, widget: markdown}
+  - name: resources
+    label: Teaching resources
+    folder: content/resources
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: English title, name: title_en, widget: string}
+      - {label: Arabic title, name: title_ar, widget: string}
+      - {label: Category, name: category, widget: select, options: [Course, Laboratory, Guide, Book, Software]}
+      - {label: Language, name: language, widget: select, options: [English, Arabic, Bilingual]}
+      - {label: File, name: file, widget: file, required: false}
+      - {label: Updated date, name: updated, widget: datetime}
+      - {label: Description English, name: description_en, widget: text}
+      - {label: Description Arabic, name: description_ar, widget: text}
+  - name: structured_data
+    label: Structured academic data
+    files:
+      - name: projects
+        label: Research projects JSON
+        file: assets/data/research-projects.json
+        fields:
+          - {label: Projects, name: projects, widget: list, required: false, fields: [{label: ID, name: id, widget: string}, {label: English title, name: title_en, widget: string}, {label: Arabic title, name: title_ar, widget: string}, {label: Year, name: year, widget: string}, {label: Summary English, name: summary_en, widget: text, required: false}, {label: Summary Arabic, name: summary_ar, widget: text, required: false}]}

@@ -1,0 +1,23 @@
+Prof. Dr. Khaled Fouad Khaled — Official Academic Website
+نسخة الموقع الأكاديمي الرسمي للأستاذ الدكتور خالد فؤاد خالد
+
+Version date / تاريخ النسخة: 2026-07-22
+
+Start page / صفحة البداية:
+index.html
+
+Included pages / الصفحات المضمنة:
+00-home-page.html
+01-about-prof-khaled.html
+02-academic-career-education.html
+03-research-scientific-expertise.html
+04-publications.html
+05-research-projects.html
+06-research-group.html
+07-teaching-courses.html
+
+Upload the complete contents of this folder together so that images, documents,
+navigation links, and bilingual features continue to work correctly.
+
+يجب رفع جميع محتويات هذا المجلد معًا حتى تعمل الصور والمستندات وروابط التنقل
+وخصائص عرض اللغتين بصورة صحيحة.
