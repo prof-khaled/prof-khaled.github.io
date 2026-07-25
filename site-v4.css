@@ -1,0 +1,79 @@
+
+/* Prof. Khaled Academic Platform V4 — shared enhancement layer */
+:root{--v4-navy:#071b2e;--v4-blue:#174d73;--v4-gold:#d7ad5b;--v4-cream:#f5f2ea;--v4-paper:#fff;--v4-ink:#14212c;--v4-muted:#5e6b75;--v4-line:#d9d7d0;--v4-radius:18px;--v4-shadow:0 16px 45px rgba(7,27,46,.10);--v4-max:1240px}
+html{scroll-behavior:smooth;scroll-padding-top:88px}body{background:var(--v4-cream);color:var(--v4-ink)}
+body.v4-dark{--v4-cream:#081725;--v4-paper:#0f2639;--v4-ink:#eef5f8;--v4-muted:#b9c7d1;--v4-line:#284156;background:var(--v4-cream);color:var(--v4-ink)}
+.global-header{position:sticky!important;top:0!important;z-index:1000!important;backdrop-filter:blur(16px);box-shadow:0 8px 28px rgba(7,27,46,.10)}
+.global-nav-shell{max-width:var(--v4-max);margin:auto}.global-navigation>a,.global-dropdown>button{border-radius:10px}.global-navigation a:focus-visible,.global-navigation button:focus-visible,.v4-btn:focus-visible,.v4-icon-btn:focus-visible{outline:3px solid var(--v4-gold);outline-offset:3px}
+.v4-toolbar{display:flex;align-items:center;gap:.45rem;margin-inline-start:.4rem}.v4-icon-btn{width:42px;height:42px;border:1px solid rgba(7,27,46,.18);border-radius:50%;background:#fff;color:#071b2e;display:grid;place-items:center;cursor:pointer;font-size:1.05rem}.v4-icon-btn:hover{background:var(--v4-gold)}
+.v4-progress{position:fixed;top:0;inset-inline-start:0;height:3px;background:var(--v4-gold);width:0;z-index:2000}
+.v4-hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#061827 0%,#0b2d47 58%,#174d73 100%);color:#fff}.v4-hero:after{content:"";position:absolute;width:480px;height:480px;border:1px solid rgba(215,173,91,.35);border-radius:50%;inset-inline-end:-120px;top:-170px;box-shadow:0 0 0 65px rgba(215,173,91,.04),0 0 0 130px rgba(215,173,91,.03)}
+.v4-hero-inner{position:relative;z-index:1;max-width:var(--v4-max);margin:auto;padding:clamp(4rem,8vw,7rem) clamp(1.2rem,4vw,2rem);display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:clamp(2rem,6vw,5rem)}
+.v4-eyebrow{display:inline-flex;align-items:center;gap:.6rem;color:#f2cf88;font-size:.82rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase}.v4-eyebrow:before{content:"";width:38px;height:2px;background:var(--v4-gold)}
+.v4-hero h1{font-size:clamp(2.8rem,6vw,5.8rem)!important;line-height:1.02!important;letter-spacing:-.045em!important;margin:1.1rem 0!important;max-width:12ch!important}.v4-hero p{font-size:clamp(1.08rem,1.8vw,1.35rem);line-height:1.75;color:#d7e3ea;max-width:62ch}.v4-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.65rem}.v4-btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:48px;padding:.78rem 1.15rem;border:1px solid transparent;border-radius:999px;text-decoration:none;font-weight:700}.v4-btn-primary{background:var(--v4-gold);color:#071b2e}.v4-btn-secondary{border-color:rgba(255,255,255,.55);color:#fff}.v4-btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.v4-portrait{position:relative;max-width:440px;margin-inline:auto}.v4-portrait img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:28px;box-shadow:0 28px 70px rgba(0,0,0,.32);border:1px solid rgba(255,255,255,.26)}.v4-portrait-badge{position:absolute;inset-inline-start:-28px;bottom:28px;background:#fff;color:#071b2e;border-radius:16px;padding:1rem 1.2rem;box-shadow:var(--v4-shadow);font-weight:700}.v4-portrait-badge small{display:block;color:#687783;font-weight:500;margin-top:.2rem}
+.v4-metrics{max-width:var(--v4-max);margin:-34px auto 0;position:relative;z-index:3;padding:0 clamp(1.2rem,4vw,2rem);display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}.v4-metric{background:var(--v4-paper);border:1px solid var(--v4-line);border-radius:var(--v4-radius);padding:1.3rem;box-shadow:var(--v4-shadow)}.v4-metric strong{display:block;font-size:clamp(1.7rem,3vw,2.45rem);color:var(--v4-blue);line-height:1}.v4-metric span{display:block;color:var(--v4-muted);margin-top:.45rem;font-size:.9rem}
+.v4-section{max-width:var(--v4-max);margin:auto;padding:clamp(4rem,7vw,6.5rem) clamp(1.2rem,4vw,2rem)}.v4-section-alt{max-width:none;background:var(--v4-paper)}.v4-section-alt>.v4-section-inner{max-width:var(--v4-max);margin:auto}.v4-section-head{display:grid;grid-template-columns:.75fr 1.25fr;gap:2rem;align-items:end;margin-bottom:2rem}.v4-section-head h2{font-size:clamp(2rem,4vw,3.4rem)!important;line-height:1.12!important;margin:.5rem 0 0!important}.v4-section-head p{color:var(--v4-muted);font-size:1.08rem;line-height:1.8;margin:0}
+.v4-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem}.v4-card{background:var(--v4-paper);border:1px solid var(--v4-line);border-radius:var(--v4-radius);overflow:hidden;box-shadow:0 8px 28px rgba(7,27,46,.06);height:100%;transition:.2s ease}.v4-card:hover{transform:translateY(-5px);box-shadow:var(--v4-shadow)}.v4-card img{width:100%;aspect-ratio:16/10;object-fit:cover}.v4-card-body{padding:1.35rem}.v4-card h3{font-size:1.35rem!important;margin:.45rem 0 .65rem!important}.v4-card p{color:var(--v4-muted);line-height:1.75}.v4-card a{color:var(--v4-blue);font-weight:700;text-decoration:none}.v4-tag{display:inline-block;color:#916b25;background:#f8ecd0;border-radius:999px;padding:.28rem .65rem;font-size:.75rem;font-weight:700}
+.v4-feature-band{background:linear-gradient(120deg,#071b2e,#123f60);color:#fff}.v4-feature-band .v4-section-head p{color:#c7d5df}.v4-feature-band .v4-card{background:#0d2940;border-color:#294a62;color:#fff}.v4-feature-band .v4-card p{color:#c3d0d9}.v4-feature-band .v4-card a{color:#f1cf8b}
+.v4-pathways{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}.v4-pathway{padding:1.35rem;border-inline-start:4px solid var(--v4-gold);background:var(--v4-paper);border-radius:0 var(--v4-radius) var(--v4-radius) 0;box-shadow:0 8px 24px rgba(7,27,46,.06)}html[dir=rtl] .v4-pathway{border-radius:var(--v4-radius) 0 0 var(--v4-radius)}
+.v4-cta{max-width:var(--v4-max);margin:0 auto clamp(3rem,6vw,6rem);padding:clamp(2rem,5vw,4rem);background:linear-gradient(135deg,#d7ad5b,#f1d69b);color:#071b2e;border-radius:28px;display:grid;grid-template-columns:1.3fr .7fr;gap:2rem;align-items:center}.v4-cta h2{font-size:clamp(2rem,4vw,3.3rem)!important;margin:0 0 .8rem!important}.v4-cta .v4-btn{background:#071b2e;color:#fff;justify-self:end}
+.v4-search-dialog{position:fixed;inset:0;z-index:3000;background:rgba(2,12,20,.76);display:none;padding:8vh 1rem}.v4-search-dialog.open{display:block}.v4-search-panel{max-width:760px;margin:auto;background:var(--v4-paper);color:var(--v4-ink);border-radius:22px;box-shadow:0 25px 80px rgba(0,0,0,.35);overflow:hidden}.v4-search-top{display:flex;gap:.7rem;padding:1rem;border-bottom:1px solid var(--v4-line)}.v4-search-top input{flex:1;border:1px solid var(--v4-line);border-radius:12px;padding:.85rem 1rem;background:var(--v4-paper);color:var(--v4-ink)}.v4-search-results{max-height:60vh;overflow:auto;padding:.7rem}.v4-result{display:block;padding:1rem;border-radius:12px;color:var(--v4-ink);text-decoration:none}.v4-result:hover{background:rgba(215,173,91,.18)}.v4-result strong{display:block}.v4-result span{display:block;color:var(--v4-muted);font-size:.88rem;margin-top:.25rem}
+.v4-backtop{position:fixed;inset-inline-end:1.2rem;bottom:1.2rem;z-index:900;width:46px;height:46px;border:0;border-radius:50%;background:var(--v4-gold);color:#071b2e;box-shadow:var(--v4-shadow);cursor:pointer;opacity:0;pointer-events:none;transform:translateY(10px);transition:.2s}.v4-backtop.show{opacity:1;pointer-events:auto;transform:none}
+.v4-breadcrumbs{max-width:var(--v4-max);margin:auto;padding:1rem clamp(1.2rem,4vw,2rem);font-size:.88rem;color:var(--v4-muted)}.v4-breadcrumbs a{color:var(--v4-blue);text-decoration:none}
+@media(max-width:980px){.v4-hero-inner,.v4-section-head,.v4-cta{grid-template-columns:1fr}.v4-portrait{max-width:360px}.v4-portrait-badge{inset-inline-start:10px}.v4-metrics{grid-template-columns:repeat(2,1fr)}.v4-grid{grid-template-columns:repeat(2,1fr)}.v4-pathways{grid-template-columns:repeat(2,1fr)}.v4-cta .v4-btn{justify-self:start}}
+@media(max-width:640px){.v4-hero-inner{padding-top:3rem}.v4-hero h1{font-size:clamp(2.35rem,13vw,3.8rem)!important}.v4-metrics{grid-template-columns:1fr 1fr;margin-top:-18px}.v4-metric{padding:1rem}.v4-grid,.v4-pathways{grid-template-columns:1fr}.v4-toolbar{margin:0}.v4-cta{margin-inline:1rem;border-radius:20px}.v4-section{padding-inline:1rem}.v4-search-dialog{padding-top:3vh}}
+
+
+/* V4.1 contrast and readability corrections */
+.intro-secondary{color:#4f5d66}
+body.v4-dark .intro-secondary{color:#d3dee6!important}
+
+/* Keep inherited and legacy text readable in dark mode. */
+body.v4-dark .section:not(.dark):not(.v4-feature-band),
+body.v4-dark main,
+body.v4-dark .v4-section{color:var(--v4-ink)}
+body.v4-dark .section:not(.dark):not(.v4-feature-band) p:not(.kicker):not(.eyebrow),
+body.v4-dark .v4-section p,
+body.v4-dark .v4-card p,
+body.v4-dark .v4-pathway p{color:var(--v4-muted)}
+body.v4-dark .section:not(.dark):not(.v4-feature-band) h1,
+body.v4-dark .section:not(.dark):not(.v4-feature-band) h2,
+body.v4-dark .section:not(.dark):not(.v4-feature-band) h3,
+body.v4-dark .section:not(.dark):not(.v4-feature-band) h4{color:var(--v4-ink)}
+
+/* Dark sections must use high-contrast copy regardless of legacy rules. */
+.dark,
+.v4-feature-band,
+.training-section,
+.services-hero,
+.final-cta{color:#fff}
+.dark p:not(.kicker):not(.eyebrow),
+.v4-feature-band p,
+.training-section p,
+.services-hero p,
+.final-cta p{color:#d3dee6!important}
+.dark h1,.dark h2,.dark h3,.dark h4,
+.v4-feature-band h1,.v4-feature-band h2,.v4-feature-band h3,.v4-feature-band h4,
+.training-section h1,.training-section h2,.training-section h3,.training-section h4,
+.services-hero h1,.services-hero h2,.services-hero h3,.services-hero h4,
+.final-cta h1,.final-cta h2,.final-cta h3,.final-cta h4{color:#fff!important}
+
+/* Cards and controls retain clear surfaces in dark mode. */
+body.v4-dark .highlight,
+body.v4-dark .field-card,
+body.v4-dark .impact-card,
+body.v4-dark .book-card,
+body.v4-dark .award-card,
+body.v4-dark .publication-card,
+body.v4-dark .service-card,
+body.v4-dark .support-grid article,
+body.v4-dark .formats-grid article,
+body.v4-dark .process-list article,
+body.v4-dark .faq-list details,
+body.v4-dark .request-form{background:var(--v4-paper);color:var(--v4-ink);border-color:var(--v4-line)}
+body.v4-dark input,
+body.v4-dark select,
+body.v4-dark textarea{background:#102b40!important;color:#f3f7fa!important;border-color:#526b7d!important}
+body.v4-dark input::placeholder,
+body.v4-dark textarea::placeholder{color:#b8c5ce;opacity:1}
