@@ -1,0 +1,17 @@
+﻿Source ID,Type,Author/Organization,Title,Year,Main contribution,Verification status
+PT1,Primary textbook,"Kelly, Scully, Shoesmith & Buchheit",Electrochemical Techniques in Corrosion Science and Engineering,2003,"Course sequence; thermodynamics, kinetics, passivity, LPR, flow, distributions, models, treatments and laboratories.",Verified from uploaded front matter and Chapters 1–9.
+ST1,Supporting textbook,Marcus & Mansfeld (Eds.),Analytical Methods in Corrosion Science and Engineering,2006,"Instrumentation; DC, EIS, noise, scanning, Kelvin probe, microcells, photoelectrochemistry and EQCM.",Verified from uploaded 775-page volume.
+ST2,Supporting textbook,Michael Dornbusch,Corrosion Analysis,2019,"Integrated electrochemical/spectroscopic diagnosis, coatings and industrial tests.",Verified from uploaded 336-page volume.
+STD1,Standard,ASTM International,ASTM G3-14(2024),2024,Conventions for electrochemical corrosion measurements.,Externally verified.
+STD2,Standard,ASTM International,ASTM G5-14(2021),2021,Reference potentiodynamic anodic polarization test.,Externally verified.
+STD3,Standard,ASTM International,ASTM G59-23,2023,Potentiodynamic polarization resistance measurement.,Externally verified.
+STD4,Standard,ASTM International,ASTM G61-86(2024),2024,Cyclic potentiodynamic polarization for localized corrosion.,Externally verified.
+STD5,Standard,ASTM International,ASTM G102-23,2023,Calculation of corrosion rates from electrochemical data.,Externally verified.
+STD6,Standard,ASTM International,ASTM G106-89(2023),2023,EIS algorithm and equipment verification.,Externally verified.
+STD7,Standard,ISO,ISO 17475:2005,Confirmed 2025,Potentiostatic and potentiodynamic polarization guidelines.,Externally verified.
+STD8,Standard series,ISO,ISO 16773-1 to -4,2016–2017,"EIS terminology, collection, dummy-cell analysis and example spectra.",Externally verified.
+RA1,Research article,de Viveiros et al.,SVET/SIET comparison of AA2050 and AA7050,2022,Modern local electrochemical mapping application.,Peer-reviewed; DOI verified.
+RA2,Research article,Filotás et al.,Microelectrochemical scanning at coated cut edges,2022,Local methods for cut-edge corrosion.,Peer-reviewed; open-access DOI verified.
+RA3,Research article,Abdulmutaali et al.,Electrochemical noise and wavelet monitoring,2024,Online noise analysis and corrosion monitoring.,Peer-reviewed; open-access DOI verified.
+RA4,Research article,Mehandzhiyski et al.,Digital twin for cyclic voltammetry,2025,Contemporary digital electrochemical modelling context.,Peer-reviewed; DOI verified.
+RA5,Review article,Panid & Sajie,Electrochemical techniques for corrosion monitoring,2025,Recent synthesis and research updates.,Peer-reviewed; DOI verified.
