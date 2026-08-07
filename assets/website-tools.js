@@ -2,8 +2,12 @@
 'use strict';
 const d=document, html=d.documentElement, cfg=window.PK_SITE_CONFIG||{};
 const q=(s,c=d)=>c.querySelector(s), qa=(s,c=d)=>[...c.querySelectorAll(s)];
-const lang=()=>html.lang==='ar'||html.dataset.lang==='ar'?'ar':'en';
+const lang=()=>html.lang==='ar'||html.dataset.lang==='ar'||html.dataset.view==='ar'?'ar':'en';
 const t=(en,ar)=>lang()==='ar'?ar:en;
+// Apply the stored/requested language before generating localized interface elements.
+const requestedLang=new URLSearchParams(location.search).get('lang');
+const initialLang=(requestedLang&&['en','ar'].includes(requestedLang))?requestedLang:localStorage.getItem('pk-language');
+if(initialLang&&['en','ar'].includes(initialLang)){html.lang=initialLang;html.dir=initialLang==='ar'?'rtl':'ltr';html.dataset.view=initialLang}
 const toast=(msg)=>{const e=d.createElement('div');e.className='pk-status-toast';e.setAttribute('role','status');e.textContent=msg;d.body.append(e);setTimeout(()=>e.remove(),2600)};
 // Skip link and main landmark
 let main=q('main'); if(main&&!main.id) main.id='main-content';
@@ -45,13 +49,34 @@ panel.addEventListener('click',async e=>{const key=e.target.closest('[data-pk]')
 if(main){const words=(main.innerText||'').trim().split(/\s+/).length;const mins=Math.max(1,Math.round(words/220));const bar=d.createElement('div');bar.className='pk-page-tools';bar.setAttribute('aria-label','Page tools');bar.innerHTML=`<button type="button" data-page-tool="print">${t('Print page','طباعة الصفحة')}</button><button type="button" data-page-tool="share">${t('Share','مشاركة')}</button><button type="button" data-page-tool="copy">${t('Copy link','نسخ الرابط')}</button><span aria-label="Estimated reading time">${mins} ${t('min read','دقيقة قراءة')}</span>`;
  const anchor=q('.breadcrumb, .breadcrumbs, h1',main); if(anchor)anchor.insertAdjacentElement(anchor.matches('h1')?'afterend':'afterend',bar); else main.prepend(bar);
  bar.onclick=async e=>{const k=e.target.dataset.pageTool;if(k==='print')print();if(k==='copy'){await navigator.clipboard.writeText(location.href);toast(t('Link copied','تم نسخ الرابط'))}if(k==='share'){if(navigator.share)navigator.share({title:d.title,url:location.href});else navigator.clipboard.writeText(location.href)}};
- // On this page generated from section headings
- const heads=qa('section h2, main>h2',main).filter(h=>!h.closest('.contact-section')&&h.innerText.trim()).slice(0,12);
- if(heads.length>=3){heads.forEach((h,i)=>{if(!h.id)h.id='section-'+(i+1)});const nav=d.createElement('nav');nav.className='pk-on-this-page';nav.setAttribute('aria-label','On this page');nav.innerHTML='<h2>'+t('On this page','في هذه الصفحة')+'</h2><ol>'+heads.map(h=>`<li><a href="#${h.id}">${h.innerText.trim()}</a></li>`).join('')+'</ol>';bar.insertAdjacentElement('afterend',nav)}
+ // On this page generated from section headings. Keep both languages in the DOM so switching language never leaves an English-only title.
+ const heads=qa('section h2, main>h2',main).filter(h=>!h.closest('.contact-section')&&(h.textContent||'').trim()).slice(0,12);
+ if(heads.length>=3){
+   heads.forEach((h,i)=>{if(!h.id)h.id='section-'+(i+1)});
+   const nav=d.createElement('nav');nav.className='pk-on-this-page';nav.setAttribute('aria-label',t('On this page','في هذه الصفحة'));
+   const title=d.createElement('h2');
+   const titleEn=d.createElement('span');titleEn.className='en';titleEn.textContent='On this page';
+   const titleAr=d.createElement('span');titleAr.className='ar';titleAr.textContent='في هذه الصفحة';
+   title.append(titleEn,titleAr);nav.append(title);
+   const list=d.createElement('ol');
+   heads.forEach(h=>{
+     const li=d.createElement('li'),a=d.createElement('a');a.href='#'+h.id;
+     const enSource=h.querySelector('.en,[data-lang-inline="en"],[data-lang="en"]');
+     const arSource=h.querySelector('.ar,[data-lang-inline="ar"],[data-lang="ar"]');
+     if(enSource||arSource){
+       const en=d.createElement('span');en.className='en';en.textContent=(enSource?.textContent||h.textContent||'').trim();
+       const ar=d.createElement('span');ar.className='ar';ar.textContent=(arSource?.textContent||en.textContent).trim();
+       a.append(en,ar);
+     }else a.textContent=(h.textContent||'').trim();
+     li.append(a);list.append(li);
+   });
+   nav.append(list);bar.insertAdjacentElement('afterend',nav);
+   const updateOnPageLabel=()=>nav.setAttribute('aria-label',t('On this page','في هذه الصفحة'));
+   window.addEventListener('kfk:language',updateOnPageLabel);updateOnPageLabel();
+ }
 }
-// Preserve language preference when existing controls switch language
-const savedLang=localStorage.getItem('pk-language');if(savedLang&&['en','ar'].includes(savedLang)){html.lang=savedLang;html.dir=savedLang==='ar'?'rtl':'ltr';html.dataset.view=savedLang}
-d.addEventListener('click',e=>{const b=e.target.closest('[data-lang],[data-language],#language-toggle');if(!b)return;setTimeout(()=>{const l=html.lang==='ar'||html.dataset.view==='ar'?'ar':'en';localStorage.setItem('pk-language',l)},0)});
+// Preserve language preference when existing controls switch language.
+d.addEventListener('click',e=>{const b=e.target.closest('[data-lang],[data-language],[data-kfk-lang],#language-toggle');if(!b)return;setTimeout(()=>{const l=html.lang==='ar'||html.dataset.view==='ar'?'ar':'en';localStorage.setItem('pk-language',l)},0)});
 // Analytics, loaded only after owner configures a domain
 if(cfg.plausibleDomain){const s=d.createElement('script');s.defer=true;s.dataset.domain=cfg.plausibleDomain;s.src='https://plausible.io/js/script.js';d.head.append(s);window.plausible=window.plausible||function(){(window.plausible.q=window.plausible.q||[]).push(arguments)};d.addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;const event=a.href.includes('doi.org')?'DOI Click':a.hasAttribute('download')?'File Download':a.href.includes('orcid.org')?'ORCID Click':null;if(event)window.plausible(event,{props:{url:a.href,page:location.pathname}})})}
 // Turnstile injected only when configured

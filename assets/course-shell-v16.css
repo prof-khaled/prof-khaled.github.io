@@ -1,0 +1,7 @@
+:root{--kfk-navy:#071b2e;--kfk-navy2:#0d304d;--kfk-gold:#d7ad5b;--kfk-paper:#f5f7f8;--kfk-ink:#162531}
+.kfk-course-shell{position:relative;z-index:9999;background:linear-gradient(110deg,var(--kfk-navy),var(--kfk-navy2));color:#fff;border-bottom:3px solid var(--kfk-gold);font-family:Arial,"Noto Sans Arabic",sans-serif}
+.kfk-course-shell *{box-sizing:border-box}.kfk-course-shell__inner{max-width:1240px;margin:auto;padding:.7rem 1rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.kfk-course-brand{text-decoration:none;color:#fff;font-weight:800;letter-spacing:.02em}.kfk-course-brand small{display:block;color:#e4d0a3;font-size:.72rem;font-weight:600;margin-top:.12rem}
+.kfk-course-nav{display:flex;gap:.45rem;flex-wrap:wrap}.kfk-course-nav a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.24);padding:.48rem .72rem;border-radius:999px;font-size:.88rem;background:rgba(255,255,255,.05)}.kfk-course-nav a:hover,.kfk-course-nav a:focus-visible{background:var(--kfk-gold);color:var(--kfk-navy);outline:2px solid #fff;outline-offset:2px}
+.kfk-public-course-label{max-width:1240px;margin:.7rem auto 0;padding:0 1rem;font-family:Arial,"Noto Sans Arabic",sans-serif;color:#5c4a25;font-size:.8rem}
+@media(max-width:620px){.kfk-course-shell__inner{align-items:flex-start;flex-direction:column}.kfk-course-nav{width:100%}.kfk-course-nav a{flex:1;text-align:center;min-width:92px}}

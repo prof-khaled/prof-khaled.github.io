@@ -1,6 +1,6 @@
 window.PK_SITE_CONFIG = Object.freeze({
   siteName: "Prof. Dr. Khaled Fouad Khaled",
-  siteUrl: "https://YOUR-DOMAIN.example",
+  siteUrl: "https://khaledfouadkhaled.github.io",
   plausibleDomain: "", // e.g. khaledfouadkhaled.com
   turnstileSiteKey: "", // Cloudflare Turnstile public site key
   orcidId: "0000-0001-7412-0791",
