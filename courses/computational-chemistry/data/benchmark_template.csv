@@ -1,0 +1,2 @@
+case_id,chemical_class,reference_value,predicted_value,units,method,basis,notes
+example-1,barrier,,,kJ/mol,,,Replace with real/reference data; do not fabricate.
