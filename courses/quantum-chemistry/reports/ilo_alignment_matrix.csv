@@ -1,0 +1,8 @@
+﻿ILO,Performance,Bloom level,Taught modules,Assessment evidence
+ILO1,"Explain quantum states, operators, probability, measurement and uncertainty",Understand/Analyze,"1–4,7,16","Quizzes, problem sets, exams"
+ILO2,Solve Schrödinger eigenproblems and interpret boundary conditions,Apply/Analyze,4–8,"Problem sets, labs, exams"
+ILO3,"Use commutators, angular momentum, variational and perturbation methods",Apply/Evaluate,"7,10","Problems, exams"
+ILO4,"Connect quantum states to atoms, bonding and spectroscopy",Analyze/Synthesize,8–12,"Case studies, exams"
+ILO5,"Diagnose limitations of HF, correlated and multiconfigurational models",Evaluate,"11,13–15","Method-choice tasks, capstone"
+ILO6,Perform reproducible numerical work with units and convergence checks,Apply/Create,"3,5,8,13",Labs
+ILO7,"Communicate reasoning with equations, figures, assumptions and citations",Create,All,"Reports, capstone"
