@@ -1,0 +1,6 @@
+HTML pages: 14
+Search records: 14
+Missing local references: 3
+('01-about-prof-khaled.html', 'images/Ain%20shams%20university.jpg')
+('index.html', 'images/Ain%20shams%20university.jpg')
+('04-publications.html', 'images-publications-en.png')
