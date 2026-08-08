@@ -1,8 +1,0 @@
-﻿Component EN,Component AR,Weight,Mapped ILOs,Criteria EN,Criteria AR
-Diagnostic entry test,اختبار تشخيصي أولي,0%,ILO1–ILO3,Feedback only; identifies prerequisite gaps.,تغذية راجعة فقط؛ يحدد فجوات المتطلبات.
-Weekly knowledge checks,اختبارات معرفة أسبوعية,10%,ILO1–ILO7,"Accuracy, explanation and correction after feedback.",الدقة والتفسير والتصحيح بعد التغذية الراجعة.
-Laboratory notebooks and data files,دفاتر المختبر وملفات البيانات,20%,"ILO3–ILO8, ILO12","Traceability, safety, raw data, metadata, calculations and uncertainty.",قابلية التتبع والسلامة والبيانات الخام والوصف والحسابات وعدم اليقين.
-Midterm examination,اختبار منتصف الفصل,20%,ILO1–ILO7,"Conceptual reasoning, calculation and data interpretation.",الاستدلال المفاهيمي والحساب وتفسير البيانات.
-Technique-validation assignment,تكليف التحقق من تقنية,15%,"ILO2, ILO4–ILO6, ILO9","Protocol critique, artefact diagnosis and standards use.",نقد البروتوكول وتشخيص الآثار واستخدام المعايير.
-Capstone investigation and bilingual defense,التحقيق الختامي والدفاع الثنائي,25%,ILO2–ILO12,"Evidence integration, uncertainty, engineering decision and communication.",دمج الأدلة وعدم اليقين والقرار الهندسي والتواصل.
-Final integrative examination,الاختبار النهائي التكاملي,10%,ILO1–ILO12,"Method selection, mechanisms, synthesis and professional judgment.",اختيار الطرق والآليات والتركيب والحكم المهني.

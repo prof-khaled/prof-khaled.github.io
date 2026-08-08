@@ -1,3 +1,0 @@
-Security model — Version 16
-
-This is a static public academic website. No public section requires a username or password. No secret credentials are intentionally stored in the client bundle. Repository/account security must be configured in GitHub (2FA/passkeys, protected default branch/rulesets, least-privilege access and HTTPS).

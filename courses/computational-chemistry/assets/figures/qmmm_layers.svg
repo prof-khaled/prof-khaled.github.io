@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img">
-<style>text{font-family:Arial,sans-serif;fill:#10243e}.t{font-size:28px;font-weight:700}.s{font-size:20px}.box{fill:#f7f2e8;stroke:#c7a85b;stroke-width:3}.navy{fill:#10243e}.gold{fill:#c7a85b}.line{stroke:#10243e;stroke-width:4;fill:none}.dash{stroke:#778;stroke-width:3;fill:none;stroke-dasharray:10 8}</style>
-<text x="500" y="45" text-anchor="middle" class="t">QM/MM partitioning</text>
-<circle cx="500" cy="290" r="210" fill="#eef3f7" stroke="#10243e" stroke-width="4"/><circle cx="500" cy="290" r="115" fill="#f7f2e8" stroke="#c7a85b" stroke-width="5"/><circle cx="500" cy="290" r="42" class="gold"/>
-<text x="500" y="285" text-anchor="middle" class="s">active site</text><text x="500" y="312" text-anchor="middle" class="s">QM</text>
-<text x="500" y="175" text-anchor="middle" class="s">boundary / embedding</text><text x="500" y="485" text-anchor="middle" class="s">environment: MM / continuum / periodic model</text>
-<text x="500" y="530" text-anchor="middle" class="s">The partition must preserve chemistry at the boundary and include the environment that controls structure and electrostatics.</text></svg>
