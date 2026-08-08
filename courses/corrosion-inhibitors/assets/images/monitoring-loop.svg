@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 470" role="img" aria-labelledby="t d">
+<title id="t">Integrated corrosion monitoring loop</title><desc id="d">A closed loop linking inhibitor dosing, process chemistry, corrosion probes, inspection, data interpretation and corrective action.</desc>
+<rect width="950" height="470" fill="#fffdf8"/>
+<g font-family="Segoe UI" font-size="20" text-anchor="middle">
+<rect x="350" y="35" width="250" height="70" rx="16" fill="#0b1f35"/><text x="475" y="67" fill="#fff">Inhibitor dosing</text><text x="475" y="92" fill="#e7c878">حقن المثبط</text>
+<rect x="655" y="150" width="250" height="70" rx="16" fill="#edf5fb" stroke="#3c7da6" stroke-width="3"/><text x="780" y="180" fill="#0b1f35">Process chemistry</text><text x="780" y="205" fill="#0b1f35">كيمياء العملية</text>
+<rect x="655" y="285" width="250" height="70" rx="16" fill="#eaf6ef" stroke="#1f7a55" stroke-width="3"/><text x="780" y="315" fill="#0b1f35">Probes & inspection</text><text x="780" y="340" fill="#0b1f35">المجسات والفحص</text>
+<rect x="350" y="365" width="250" height="70" rx="16" fill="#f8f2e5" stroke="#c79a3b" stroke-width="3"/><text x="475" y="395" fill="#0b1f35">Interpretation</text><text x="475" y="420" fill="#0b1f35">تفسير البيانات</text>
+<rect x="45" y="285" width="250" height="70" rx="16" fill="#fff1df" stroke="#a65c13" stroke-width="3"/><text x="170" y="315" fill="#0b1f35">Corrective action</text><text x="170" y="340" fill="#0b1f35">إجراء تصحيحي</text>
+<rect x="45" y="150" width="250" height="70" rx="16" fill="#f1e8f8" stroke="#754c8f" stroke-width="3"/><text x="170" y="180" fill="#0b1f35">Verification</text><text x="170" y="205" fill="#0b1f35">التحقق</text>
+</g>
+<g fill="none" stroke="#0b1f35" stroke-width="4" marker-end="url(#a)">
+<path d="M600 80 C710 85 770 105 780 145"/><path d="M780 220 L780 280"/><path d="M655 330 C600 385 585 398 605 400"/><path d="M350 400 L300 330"/><path d="M170 285 L170 225"/><path d="M295 185 C330 115 350 95 380 90"/>
+</g>
+<defs><marker id="a" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11z" fill="#0b1f35"/></marker></defs>
+</svg>
