@@ -1,0 +1,15 @@
+﻿Week,Theory topic EN,Theory topic AR,Laboratory EN,Laboratory AR
+1,Foundations; corrosion cell; Faraday conversion,الأسس؛ خلية التآكل؛ تحويل فاراداي,"Lab safety, reference-scale worksheet",سلامة المختبر وورقة مقياس المرجع
+2,"Thermodynamics, Nernst equation and Pourbaix diagrams",الديناميكا الحرارية ومعادلة نرنست ومخططات بوربيه,Reference-electrode conversion and E–pH exercise,تحويل أقطاب المرجع وتمرين E–pH
+3,"Kinetics, mixed potential and Tafel analysis",الحركية والجهد المختلط وتحليل تافل,Polarization of steel under aerated/deaerated conditions,استقطاب الفولاذ في ظروف مهوّاة ومنزوعة الهواء
+4,Passivity and localized corrosion,الخمول والتآكل الموضعي,Cyclic polarization and morphology confirmation,الاستقطاب الدوري وتأكيد الشكل
+5,Instrumentation and measurement integrity,الأجهزة وسلامة القياس,"Dummy cell, reference check and Ru measurement",خلية وهمية وفحص المرجع وقياس Ru
+6,DC techniques and galvanic coupling,تقنيات DC والاقتران الجلفاني,"OCP, steps, CV and ZRA",OCP والخطوات وCV وZRA
+7,LPR and corrosion-rate uncertainty,LPR وعدم يقين معدل التآكل,LPR by three acquisition modes,LPR بثلاثة أنماط جمع
+8,EIS fundamentals and validation,أسس EIS والتحقق,Dummy-cell and bare/coated steel EIS,EIS لخلية وهمية وفولاذ عارٍ/مطلي
+9,Mass transport and controlled flow,انتقال الكتلة والجريان المضبوط,RDE Levich/Koutecký–Levich analysis,تحليل RDE ليفيتش/كوتيتسكي–ليفيتش
+10,Spatial distributions and cathodic protection,التوزيعات المكانية والحماية المهبطية,Potential mapping and IR-drop correction,رسم الجهد وتصحيح هبوط IR
+11,Electrochemical noise,الضوضاء الكهروكيميائية,"Time-series, PSD and wavelet analysis",تحليل السلسلة الزمنية وPSD والمويجات
+12,Localized scanning and microcells,المسح الموضعي والخلايا الدقيقة,Local map registration with microscopy,تسجيل الخريطة الموضعية مع المجهر
+13,"SKP, semiconductor methods and EQCM",SKP وطرق أشباه الموصلات وEQCM,Mott–Schottky and mass–charge exercise,تمرين موت–شوتكي والكتلة–الشحنة
+14,Integrated diagnosis and capstone defense,التشخيص المتكامل والدفاع الختامي,Team investigation and bilingual oral defense,تحقيق جماعي ودفاع شفهي ثنائي اللغة
