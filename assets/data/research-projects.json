@@ -1,0 +1,667 @@
+{
+  "titleEn": "Research Projects & Scientific Collaboration",
+  "titleAr": "المشروعات البحثية والتعاون العلمي",
+  "verifiedSummary": {
+    "totalProjects": 18,
+    "principalInvestigator": 9,
+    "coInvestigator": 9,
+    "period": "1998–2017",
+    "countries": 3,
+    "organisationsAndProgrammes": 11
+  },
+  "projects": [
+    {
+      "id": "p01",
+      "number": 1,
+      "startYear": 1998,
+      "endYear": 2001,
+      "period": "1998–2001",
+      "role": "copi",
+      "titleEn": "Corrosion Inhibition of Iron Using Organic/Inorganic Inhibitors",
+      "titleAr": "تثبيط تآكل الحديد باستخدام مثبطات عضوية وغير عضوية",
+      "organisationEn": "Robert A. Welch Foundation — Rice University",
+      "organisationAr": "مؤسسة Robert A. Welch — جامعة Rice",
+      "countryEn": "United States",
+      "countryAr": "الولايات المتحدة الأمريكية",
+      "projectCode": "Grant C-0426",
+      "categories": [
+        "electrochemistry"
+      ],
+      "areasEn": [
+        "Corrosion Science",
+        "Corrosion Inhibitors"
+      ],
+      "areasAr": [
+        "علوم التآكل",
+        "مثبطات التآكل"
+      ],
+      "descriptionEn": "An early collaborative project investigating organic and inorganic approaches to reducing iron corrosion and interpreting inhibitor–surface interactions.",
+      "descriptionAr": "مشروع تعاوني مبكر لدراسة الأساليب العضوية وغير العضوية للحد من تآكل الحديد وتفسير تفاعلات المثبطات مع السطح المعدني.",
+      "documents": []
+    },
+    {
+      "id": "p02",
+      "number": 2,
+      "startYear": 2002,
+      "endYear": 2005,
+      "period": "2002–2005",
+      "role": "pi",
+      "titleEn": "Electrochemical Processes at the Electrode/Electrolyte Interface",
+      "titleAr": "العمليات الكهروكيميائية عند السطح الفاصل بين القطب والإلكتروليت",
+      "organisationEn": "Robert A. Welch Foundation — Rice University",
+      "organisationAr": "مؤسسة Robert A. Welch — جامعة Rice",
+      "countryEn": "United States",
+      "countryAr": "الولايات المتحدة الأمريكية",
+      "projectCode": "Grant C-0426",
+      "categories": [
+        "electrochemistry"
+      ],
+      "areasEn": [
+        "Electrochemistry",
+        "Interfacial Processes"
+      ],
+      "areasAr": [
+        "الكيمياء الكهربية",
+        "عمليات السطوح البينية"
+      ],
+      "descriptionEn": "A fundamental electrochemistry project focused on charge transfer and reactions occurring at the electrode–electrolyte interface.",
+      "descriptionAr": "مشروع في الكيمياء الكهربية الأساسية ركز على انتقال الشحنة والتفاعلات التي تحدث عند السطح الفاصل بين القطب والإلكتروليت.",
+      "documents": []
+    },
+    {
+      "id": "p03",
+      "number": 3,
+      "startYear": 2005,
+      "endYear": 2006,
+      "period": "2005–2006",
+      "role": "copi",
+      "titleEn": "Development of Environmental Awareness Through Future Teachers in Egypt",
+      "titleAr": "تنمية الوعي البيئي من خلال معلمي المستقبل في مصر",
+      "organisationEn": "FOEP — Faculty of Education, Ain Shams University",
+      "organisationAr": "مشروع تطوير كليات التربية FOEP — كلية التربية، جامعة عين شمس",
+      "countryEn": "Egypt",
+      "countryAr": "مصر",
+      "projectCode": "",
+      "categories": [
+        "education"
+      ],
+      "areasEn": [
+        "Environmental Education",
+        "Teacher Preparation"
+      ],
+      "areasAr": [
+        "التربية البيئية",
+        "إعداد المعلم"
+      ],
+      "descriptionEn": "An educational-development project supporting environmental awareness within the preparation of future teachers in Egypt.",
+      "descriptionAr": "مشروع لتطوير التعليم ودعم الوعي البيئي ضمن برامج إعداد معلمي المستقبل في مصر.",
+      "documents": []
+    },
+    {
+      "id": "p04",
+      "number": 4,
+      "startYear": 2005,
+      "endYear": 2006,
+      "period": "2005–2006",
+      "role": "copi",
+      "titleEn": "Education of Space and Earth Sciences Using Advanced Information Technology",
+      "titleAr": "تعليم علوم الفضاء والأرض باستخدام تكنولوجيا المعلومات المتقدمة",
+      "organisationEn": "HEEPF — Faculty of Education, Ain Shams University",
+      "organisationAr": "مشروعات تطوير التعليم العالي HEEPF — كلية التربية، جامعة عين شمس",
+      "countryEn": "Egypt",
+      "countryAr": "مصر",
+      "projectCode": "",
+      "categories": [
+        "education",
+        "computational"
+      ],
+      "areasEn": [
+        "Science Education",
+        "Educational Technology"
+      ],
+      "areasAr": [
+        "تعليم العلوم",
+        "تكنولوجيا التعليم"
+      ],
+      "descriptionEn": "A project integrating advanced information technology into the teaching of space and Earth sciences.",
+      "descriptionAr": "مشروع لدمج تكنولوجيا المعلومات المتقدمة في تعليم علوم الفضاء والأرض.",
+      "documents": []
+    },
+    {
+      "id": "p05",
+      "number": 5,
+      "startYear": 2005,
+      "endYear": 2006,
+      "period": "2005–2006",
+      "role": "copi",
+      "titleEn": "Higher Studies Enhancement Project",
+      "titleAr": "مشروع تطوير وتعزيز الدراسات العليا",
+      "organisationEn": "FOEP — Faculty of Education, Ain Shams University",
+      "organisationAr": "مشروع تطوير كليات التربية FOEP — كلية التربية، جامعة عين شمس",
+      "countryEn": "Egypt",
+      "countryAr": "مصر",
+      "projectCode": "",
+      "categories": [
+        "education"
+      ],
+      "areasEn": [
+        "Postgraduate Education",
+        "Institutional Development"
+      ],
+      "areasAr": [
+        "الدراسات العليا",
+        "التطوير المؤسسي"
+      ],
+      "descriptionEn": "An institutional project concerned with strengthening postgraduate education and its supporting academic systems.",
+      "descriptionAr": "مشروع مؤسسي استهدف تعزيز الدراسات العليا وتطوير النظم الأكاديمية الداعمة لها.",
+      "documents": []
+    },
+    {
+      "id": "p06",
+      "number": 6,
+      "startYear": 2008,
+      "endYear": 2009,
+      "period": "2008–2009",
+      "role": "copi",
+      "titleEn": "Utilising Mechanical, Chemical, Electrochemical, Photoelectrochemical and Nanotechnology Methods for the Anti-Corrosion of Copper and Some of Its Alloys in Aqueous Media",
+      "titleAr": "استخدام الطرق الميكانيكية والكيميائية والكهروكيميائية والكهروضوئية وتقنيات النانو لحماية النحاس وبعض سبائكه من التآكل في الأوساط المائية",
+      "organisationEn": "Taif University",
+      "organisationAr": "جامعة الطائف",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "1-429-134",
+      "categories": [
+        "electrochemistry",
+        "materials"
+      ],
+      "areasEn": [
+        "Copper Corrosion",
+        "Nanotechnology",
+        "Materials Protection"
+      ],
+      "areasAr": [
+        "تآكل النحاس",
+        "تقنيات النانو",
+        "حماية المواد"
+      ],
+      "descriptionEn": "An interdisciplinary study combining several protection routes to examine copper and copper-alloy corrosion in aqueous environments.",
+      "descriptionAr": "دراسة متعددة التخصصات جمعت عدة مسارات للحماية من أجل فحص تآكل النحاس وسبائكه في الأوساط المائية.",
+      "documents": [
+        "doc-copi"
+      ]
+    },
+    {
+      "id": "p07",
+      "number": 7,
+      "startYear": 2009,
+      "endYear": 2009,
+      "period": "2009",
+      "role": "pi",
+      "titleEn": "Experimental and Theoretical Studies on the Effect of Surfactant Adsorption Phenomena on Corrosion Inhibition in the Petroleum Industry",
+      "titleAr": "دراسات تجريبية ونظرية لتأثير ظواهر امتزاز المواد الفعالة سطحيًا في تثبيط التآكل في صناعة البترول",
+      "organisationEn": "Taif University",
+      "organisationAr": "جامعة الطائف",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "1-430-397",
+      "categories": [
+        "electrochemistry",
+        "industrial"
+      ],
+      "areasEn": [
+        "Adsorption",
+        "Corrosion Inhibitors",
+        "Petroleum Applications"
+      ],
+      "areasAr": [
+        "الامتزاز",
+        "مثبطات التآكل",
+        "تطبيقات بترولية"
+      ],
+      "descriptionEn": "A combined experimental and theoretical investigation of surfactant adsorption and its role in corrosion inhibition for petroleum-related systems.",
+      "descriptionAr": "دراسة تجريبية ونظرية متكاملة لامتزاز المواد الفعالة سطحيًا ودورها في تثبيط التآكل بالأنظمة المرتبطة بصناعة البترول.",
+      "documents": [
+        "doc-pi"
+      ]
+    },
+    {
+      "id": "p08",
+      "number": 8,
+      "startYear": 2010,
+      "endYear": 2010,
+      "period": "2010",
+      "role": "pi",
+      "titleEn": "Designing New Corrosion Inhibitors by QSAR and Molecular Dynamics Approaches",
+      "titleAr": "تصميم مثبطات تآكل جديدة باستخدام علاقات البنية والنشاط الكمية والديناميكا الجزيئية",
+      "organisationEn": "Center of Research Excellence in Corrosion — King Fahd University of Petroleum and Minerals",
+      "organisationAr": "مركز التميز البحثي في تآكل المعادن — جامعة الملك فهد للبترول والمعادن",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "CR-03-2010",
+      "categories": [
+        "computational",
+        "electrochemistry"
+      ],
+      "areasEn": [
+        "QSAR",
+        "Molecular Dynamics",
+        "Computational Chemistry"
+      ],
+      "areasAr": [
+        "علاقات البنية والنشاط الكمية",
+        "الديناميكا الجزيئية",
+        "الكيمياء الحاسوبية"
+      ],
+      "descriptionEn": "A computational project using QSAR and molecular-dynamics approaches to guide the design and evaluation of corrosion inhibitors.",
+      "descriptionAr": "مشروع حاسوبي استخدم علاقات البنية والنشاط الكمية والديناميكا الجزيئية لتوجيه تصميم مثبطات التآكل وتقييمها.",
+      "documents": [
+        "doc-kfupm"
+      ]
+    },
+    {
+      "id": "p09",
+      "number": 9,
+      "startYear": 2010,
+      "endYear": 2010,
+      "period": "2010",
+      "role": "pi",
+      "titleEn": "Understanding Corrosion Inhibition: Study of the Corrosion Inhibition of Iron Using Furan Derivatives by Non-Conventional Methods",
+      "titleAr": "فهم تثبيط التآكل: دراسة تثبيط تآكل الحديد باستخدام مشتقات الفيوران بطرق غير تقليدية",
+      "organisationEn": "Taif University",
+      "organisationAr": "جامعة الطائف",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "1-431-713",
+      "categories": [
+        "electrochemistry"
+      ],
+      "areasEn": [
+        "Iron Corrosion",
+        "Furan Derivatives",
+        "Non-Conventional Methods"
+      ],
+      "areasAr": [
+        "تآكل الحديد",
+        "مشتقات الفيوران",
+        "طرق غير تقليدية"
+      ],
+      "descriptionEn": "A focused project examining furan derivatives as iron-corrosion inhibitors through non-conventional analytical approaches.",
+      "descriptionAr": "مشروع متخصص لفحص مشتقات الفيوران كمثبطات لتآكل الحديد باستخدام أساليب تحليلية غير تقليدية.",
+      "documents": [
+        "doc-furan"
+      ]
+    },
+    {
+      "id": "p10",
+      "number": 10,
+      "startYear": 2010,
+      "endYear": 2014,
+      "period": "2010–2014",
+      "role": "pi",
+      "titleEn": "Development of a New Corrosion Protection Strategy for Water–Ammonia Refrigerating Systems",
+      "titleAr": "تطوير استراتيجية جديدة للحماية من التآكل في أنظمة التبريد المعتمدة على الماء والأمونيا",
+      "organisationEn": "King Abdulaziz City for Science and Technology",
+      "organisationAr": "مدينة الملك عبد العزيز للعلوم والتكنولوجيا",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "AR-3066",
+      "categories": [
+        "industrial",
+        "electrochemistry"
+      ],
+      "areasEn": [
+        "Refrigeration Systems",
+        "Corrosion Protection",
+        "Industrial Applications"
+      ],
+      "areasAr": [
+        "أنظمة التبريد",
+        "الحماية من التآكل",
+        "التطبيقات الصناعية"
+      ],
+      "descriptionEn": "An applied project developing a corrosion-protection strategy for water–ammonia refrigeration systems.",
+      "descriptionAr": "مشروع تطبيقي لتطوير استراتيجية للحماية من التآكل في أنظمة التبريد القائمة على الماء والأمونيا.",
+      "documents": [
+        "doc-kacst"
+      ]
+    },
+    {
+      "id": "p11",
+      "number": 11,
+      "startYear": 2010,
+      "endYear": 2011,
+      "period": "2010–2011",
+      "role": "pi",
+      "titleEn": "Spectral, Thermal and Inhibition Studies of Transition-Metal Complexes with Thiosemicarbazide and Thiosemicarbazone Derivatives Prepared by Electrochemical Methods",
+      "titleAr": "دراسات طيفية وحرارية ودراسات تثبيط التآكل لمتراكبات بعض العناصر الانتقالية مع مشتقات الثيوسيميكربازيد والثيوسيميكربازون المحضرة بطرق كهروكيميائية",
+      "organisationEn": "Taif University",
+      "organisationAr": "جامعة الطائف",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "1-431-636",
+      "categories": [
+        "electrochemistry",
+        "materials"
+      ],
+      "areasEn": [
+        "Coordination Chemistry",
+        "Electrochemical Synthesis",
+        "Corrosion Inhibition"
+      ],
+      "areasAr": [
+        "الكيمياء التناسقية",
+        "التحضير الكهروكيميائي",
+        "تثبيط التآكل"
+      ],
+      "descriptionEn": "A project linking electrochemical synthesis with spectral, thermal and corrosion-inhibition studies of transition-metal complexes.",
+      "descriptionAr": "مشروع ربط التحضير الكهروكيميائي بالدراسات الطيفية والحرارية وتقييم تثبيط التآكل لمتراكبات العناصر الانتقالية.",
+      "documents": [
+        "doc-pi"
+      ]
+    },
+    {
+      "id": "p12",
+      "number": 12,
+      "startYear": 2011,
+      "endYear": 2011,
+      "period": "2011",
+      "role": "pi",
+      "titleEn": "Innovative Methods for Corrosion Protection of Refrigerating Systems",
+      "titleAr": "طرق مبتكرة لحماية أنظمة التبريد من التآكل",
+      "organisationEn": "Taif University",
+      "organisationAr": "جامعة الطائف",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "1-432-1090",
+      "categories": [
+        "industrial",
+        "electrochemistry"
+      ],
+      "areasEn": [
+        "Refrigeration Systems",
+        "Corrosion Protection"
+      ],
+      "areasAr": [
+        "أنظمة التبريد",
+        "الحماية من التآكل"
+      ],
+      "descriptionEn": "An applied investigation of innovative methods for improving corrosion protection in refrigeration systems.",
+      "descriptionAr": "دراسة تطبيقية لأساليب مبتكرة تهدف إلى تحسين الحماية من التآكل في أنظمة التبريد.",
+      "documents": [
+        "doc-pi"
+      ]
+    },
+    {
+      "id": "p13",
+      "number": 13,
+      "startYear": 2011,
+      "endYear": 2011,
+      "period": "2011",
+      "role": "pi",
+      "titleEn": "Understanding Corrosion Inhibition: A Surface-Science Study of Thiophene Derivatives on Iron Surfaces",
+      "titleAr": "فهم تثبيط التآكل: دراسة في علم الأسطح لمشتقات الثيوفين على أسطح الحديد",
+      "organisationEn": "Taif University",
+      "organisationAr": "جامعة الطائف",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "1-432-1128",
+      "categories": [
+        "electrochemistry"
+      ],
+      "areasEn": [
+        "Surface Science",
+        "Thiophene Derivatives",
+        "Iron Corrosion"
+      ],
+      "areasAr": [
+        "علم الأسطح",
+        "مشتقات الثيوفين",
+        "تآكل الحديد"
+      ],
+      "descriptionEn": "A surface-science project investigating the interaction of thiophene derivatives with iron surfaces in corrosion-inhibition contexts.",
+      "descriptionAr": "مشروع في علم الأسطح لدراسة تفاعل مشتقات الثيوفين مع أسطح الحديد في سياق تثبيط التآكل.",
+      "documents": [
+        "doc-pi"
+      ]
+    },
+    {
+      "id": "p14",
+      "number": 14,
+      "startYear": 2011,
+      "endYear": 2015,
+      "period": "2011–2015",
+      "role": "pi",
+      "titleEn": "Using Multivariate Neural-Network Analysis and Genetic Function Approximation Methods to Design New Corrosion Inhibitors for the Petroleum Industry",
+      "titleAr": "استخدام تحليل الشبكات العصبية متعددة المتغيرات وطرق التقريب بالدوال الجينية لتصميم مثبطات تآكل جديدة لصناعة البترول",
+      "organisationEn": "Saudi Aramco",
+      "organisationAr": "شركة أرامكو السعودية",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "",
+      "categories": [
+        "computational",
+        "industrial"
+      ],
+      "areasEn": [
+        "Neural Networks",
+        "Data Analysis",
+        "Inhibitor Design",
+        "Petroleum Industry"
+      ],
+      "areasAr": [
+        "الشبكات العصبية",
+        "تحليل البيانات",
+        "تصميم المثبطات",
+        "صناعة البترول"
+      ],
+      "descriptionEn": "A data-driven industrial research project applying multivariate neural networks and genetic-function approximation to corrosion-inhibitor design.",
+      "descriptionAr": "مشروع بحثي صناعي قائم على البيانات طبق الشبكات العصبية متعددة المتغيرات والتقريب بالدوال الجينية في تصميم مثبطات التآكل.",
+      "documents": [
+        "doc-aramco"
+      ]
+    },
+    {
+      "id": "p15",
+      "number": 15,
+      "startYear": 2011,
+      "endYear": 2011,
+      "period": "2011",
+      "role": "copi",
+      "titleEn": "Copper(II) Complexes of Benzimidazole and Pyridine Derivatives with Superoxide-Scavenging and Pharmacological Activities",
+      "titleAr": "متراكبات النحاس الثنائي مع مشتقات البنزيميدازول والبيريدين ذات أنشطة إزالة فوق الأكسيد والأنشطة الدوائية",
+      "organisationEn": "Taif University",
+      "organisationAr": "جامعة الطائف",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "",
+      "categories": [
+        "materials"
+      ],
+      "areasEn": [
+        "Coordination Chemistry",
+        "Bioinorganic Chemistry"
+      ],
+      "areasAr": [
+        "الكيمياء التناسقية",
+        "الكيمياء الحيوية غير العضوية"
+      ],
+      "descriptionEn": "A coordination-chemistry project studying copper(II) complexes of benzimidazole and pyridine derivatives and their documented functional activities.",
+      "descriptionAr": "مشروع في الكيمياء التناسقية لدراسة متراكبات النحاس الثنائي مع مشتقات البنزيميدازول والبيريدين وأنشطتها الوظيفية الموثقة.",
+      "documents": [
+        "doc-copi"
+      ]
+    },
+    {
+      "id": "p16",
+      "number": 16,
+      "startYear": 2011,
+      "endYear": 2011,
+      "period": "2011",
+      "role": "copi",
+      "titleEn": "Preparation of Ferromagnetic Materials from the Micro- to Nanoscale Using Ceramic and Milling Methods to Address Sulphide-Polluted Air",
+      "titleAr": "تحضير مواد فيرومغناطيسية في المدى من الميكرومتر إلى النانومتر باستخدام الطرق الخزفية والطحن لمعالجة مشكلة تلوث الهواء بالكبريتيدات",
+      "organisationEn": "Taif University",
+      "organisationAr": "جامعة الطائف",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "1-429-117",
+      "categories": [
+        "materials",
+        "education"
+      ],
+      "areasEn": [
+        "Nanomaterials",
+        "Ferromagnetic Materials",
+        "Environmental Applications"
+      ],
+      "areasAr": [
+        "المواد النانوية",
+        "المواد الفيرومغناطيسية",
+        "التطبيقات البيئية"
+      ],
+      "descriptionEn": "A materials project using ceramic and milling methods to prepare ferromagnetic materials across micro- and nanoscale ranges for an environmental application.",
+      "descriptionAr": "مشروع في علوم المواد استخدم الطرق الخزفية والطحن لتحضير مواد فيرومغناطيسية في المدى الميكروي والنانوي لتطبيق بيئي.",
+      "documents": [
+        "doc-copi"
+      ]
+    },
+    {
+      "id": "p17",
+      "number": 17,
+      "startYear": 2016,
+      "endYear": 2017,
+      "period": "2016–2017",
+      "role": "copi",
+      "titleEn": "Microstructure Evolution and Corrosion Resistance of NiTi Shape-Memory Alloys Under Various Ageing Conditions",
+      "titleAr": "تطور البنية المجهرية ومقاومة التآكل لسبائك النيكل–تيتانيوم ذات ذاكرة الشكل تحت ظروف تعتيق مختلفة",
+      "organisationEn": "Taif University",
+      "organisationAr": "جامعة الطائف",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "1-437-4758",
+      "categories": [
+        "materials",
+        "electrochemistry"
+      ],
+      "areasEn": [
+        "Shape-Memory Alloys",
+        "Microstructure",
+        "Corrosion Resistance"
+      ],
+      "areasAr": [
+        "سبائك ذاكرة الشكل",
+        "البنية المجهرية",
+        "مقاومة التآكل"
+      ],
+      "descriptionEn": "A materials-characterisation project examining microstructural development and corrosion resistance in NiTi shape-memory alloys under different ageing conditions.",
+      "descriptionAr": "مشروع لتوصيف المواد ودراسة تطور البنية المجهرية ومقاومة التآكل في سبائك النيكل–تيتانيوم ذات ذاكرة الشكل تحت ظروف تعتيق مختلفة.",
+      "documents": [
+        "doc-taif-general"
+      ]
+    },
+    {
+      "id": "p18",
+      "number": 18,
+      "startYear": 2016,
+      "endYear": 2017,
+      "period": "2016–2017",
+      "role": "copi",
+      "titleEn": "Establishment of an Interactive Chemistry Laboratory Using Multimedia",
+      "titleAr": "إنشاء مختبر كيمياء تفاعلي باستخدام الوسائط المتعددة",
+      "organisationEn": "University of Hail",
+      "organisationAr": "جامعة حائل",
+      "countryEn": "Saudi Arabia",
+      "countryAr": "المملكة العربية السعودية",
+      "projectCode": "0150194",
+      "categories": [
+        "education",
+        "computational"
+      ],
+      "areasEn": [
+        "Chemistry Education",
+        "Multimedia",
+        "Interactive Laboratories"
+      ],
+      "areasAr": [
+        "تعليم الكيمياء",
+        "الوسائط المتعددة",
+        "المختبرات التفاعلية"
+      ],
+      "descriptionEn": "An educational-technology project establishing an interactive chemistry laboratory supported by multimedia resources.",
+      "descriptionAr": "مشروع في تكنولوجيا التعليم لإنشاء مختبر كيمياء تفاعلي مدعوم بموارد الوسائط المتعددة.",
+      "documents": []
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-pi",
+      "src": "images/projects/documents/taif-principal-project-list.webp",
+      "titleEn": "Certified List of Principal-Investigator Projects at Taif University",
+      "titleAr": "قائمة معتمدة بمشروعات الباحث الرئيس بجامعة الطائف",
+      "captionEn": "A certified departmental list documenting principal-investigator projects undertaken during the Taif University period.",
+      "captionAr": "قائمة معتمدة من القسم توثق مشروعات نُفذت بصفة باحث رئيس خلال فترة العمل بجامعة الطائف.",
+      "altEn": "Certified Taif University list of principal-investigator research projects.",
+      "altAr": "قائمة جامعة الطائف المعتمدة لمشروعات الباحث الرئيس."
+    },
+    {
+      "id": "doc-copi",
+      "src": "images/projects/documents/taif-copi-project-list.webp",
+      "titleEn": "Certified List of Co-Investigator Projects at Taif University",
+      "titleAr": "قائمة معتمدة بمشروعات الباحث المشارك بجامعة الطائف",
+      "captionEn": "A certified list documenting selected projects undertaken as co-investigator at Taif University.",
+      "captionAr": "قائمة معتمدة توثق عددًا من المشروعات المنفذة بصفة باحث مشارك في جامعة الطائف.",
+      "altEn": "Certified Taif University list of co-investigator research projects.",
+      "altAr": "قائمة جامعة الطائف المعتمدة لمشروعات الباحث المشارك."
+    },
+    {
+      "id": "doc-kacst",
+      "src": "images/projects/documents/kacst-refrigeration-project-letter.webp",
+      "titleEn": "KACST Letter for the Water–Ammonia Refrigeration Project",
+      "titleAr": "خطاب مدينة الملك عبد العزيز لمشروع أنظمة التبريد ماء–أمونيا",
+      "captionEn": "An official letter identifying the project title, principal investigator and project reference.",
+      "captionAr": "خطاب رسمي يوضح عنوان المشروع والباحث الرئيس والرقم المرجعي للمشروع.",
+      "altEn": "Official KACST letter for the water–ammonia refrigeration corrosion project.",
+      "altAr": "خطاب رسمي من مدينة الملك عبد العزيز لمشروع تآكل أنظمة التبريد ماء–أمونيا."
+    },
+    {
+      "id": "doc-aramco",
+      "src": "images/projects/documents/aramco-project-acceptance-public-view.webp",
+      "titleEn": "Saudi Aramco University Collaboration Acceptance",
+      "titleAr": "خطاب قبول برنامج التعاون الجامعي من أرامكو السعودية",
+      "captionEn": "A public-view crop of the acceptance message, with personal contact details excluded.",
+      "captionAr": "نسخة عامة مقتصة من خطاب القبول بعد استبعاد بيانات التواصل الشخصية.",
+      "altEn": "Public-view excerpt of a Saudi Aramco university collaboration acceptance message.",
+      "altAr": "مقتطف عام من خطاب قبول التعاون الجامعي مع أرامكو السعودية."
+    },
+    {
+      "id": "doc-kfupm",
+      "src": "images/projects/documents/kfupm-qsar-project-letter.webp",
+      "titleEn": "Acceptance Letter for the QSAR and Molecular-Dynamics Project",
+      "titleAr": "خطاب قبول مشروع QSAR والديناميكا الجزيئية",
+      "captionEn": "An official letter from King Fahd University of Petroleum and Minerals documenting project acceptance and the project reference.",
+      "captionAr": "خطاب رسمي من جامعة الملك فهد للبترول والمعادن يوثق قبول المشروع ورقمه المرجعي.",
+      "altEn": "Official acceptance letter for the corrosion-inhibitor QSAR and molecular-dynamics project.",
+      "altAr": "خطاب قبول رسمي لمشروع تصميم مثبطات التآكل باستخدام QSAR والديناميكا الجزيئية."
+    },
+    {
+      "id": "doc-furan",
+      "src": "images/projects/documents/furan-project-contract-public-view.webp",
+      "titleEn": "Public-View Record for the Furan-Derivatives Project",
+      "titleAr": "نسخة عامة من مستند مشروع مشتقات الفيوران",
+      "captionEn": "The public-view crop retains the institution, research team, title and duration while excluding the financial clauses.",
+      "captionAr": "تحتفظ النسخة العامة بالجهة والفريق والعنوان والمدة، مع استبعاد البنود المالية.",
+      "altEn": "Public-view crop of the Taif University research record for the furan-derivatives project.",
+      "altAr": "نسخة عامة مقتصة من مستند جامعة الطائف لمشروع مشتقات الفيوران."
+    },
+    {
+      "id": "doc-taif-general",
+      "src": "images/projects/documents/taif-research-collaboration-letter.webp",
+      "titleEn": "Taif University Research Collaboration Record",
+      "titleAr": "خطاب توثيق التعاون البحثي بجامعة الطائف",
+      "captionEn": "An institutional record confirming participation in research projects with multiple supporting organisations.",
+      "captionAr": "خطاب مؤسسي يؤكد المشاركة في مشروعات بحثية بالتعاون مع عدد من الجهات الداعمة.",
+      "altEn": "Taif University institutional record documenting research collaboration.",
+      "altAr": "خطاب مؤسسي من جامعة الطائف يوثق التعاون البحثي."
+    }
+  ]
+}

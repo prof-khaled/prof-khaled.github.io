@@ -1,0 +1,655 @@
+[
+  {
+    "id": "b01",
+    "title": "Chemistry Laboratory Lecture Notes: Inorganic Qualitative Analysis",
+    "date": "19-11-2014",
+    "year": "2014",
+    "pages": 139,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "analytical"
+    ],
+    "image": "images/books/inorganic-qualitative-analysis.webp",
+    "description_en": "Laboratory-oriented notes introducing classical inorganic qualitative analysis and systematic identification of ions.",
+    "description_ar": "مذكرات معملية تقدم أساسيات التحليل النوعي غير العضوي والتعرف المنهجي إلى الأيونات.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/chemistry-laboratory-lecture-notes-inorganic-qualitative/id942125898"
+  },
+  {
+    "id": "b02",
+    "title": "Chemistry Laboratory Lecture Notes: Volumetric Analysis Lab",
+    "date": "22-11-2014",
+    "year": "2014",
+    "pages": 124,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "analytical"
+    ],
+    "image": "images/books/volumetric-analysis-lab.webp",
+    "description_en": "A practical digital guide to volumetric analysis, titration principles and laboratory procedures.",
+    "description_ar": "دليل رقمي عملي للتحليل الحجمي ومبادئ المعايرة وإجراءات العمل المعملي.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/chemistry-laboratory-lecture-notes-volumetric-analysis/id944771098"
+  },
+  {
+    "id": "b03",
+    "title": "Electrochemistry Lecture Notes",
+    "date": "08-10-2014",
+    "year": "2014",
+    "pages": 177,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "physical",
+      "electrochemistry"
+    ],
+    "image": "images/books/electrochemistry-lecture-notes.webp",
+    "description_en": "Structured notes covering core electrochemical concepts, cells, potentials and related applications.",
+    "description_ar": "مذكرات منظمة تغطي المفاهيم الأساسية في الكيمياء الكهربية والخلايا والجهود وتطبيقاتها.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/electrochemistry-lecture-notes/id916265744"
+  },
+  {
+    "id": "b04",
+    "title": "Chemical Kinetics Lecture Notes",
+    "date": "08-10-2014",
+    "year": "2014",
+    "pages": 195,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "physical"
+    ],
+    "image": "images/books/chemical-kinetics-lecture-notes.webp",
+    "description_en": "An instructional treatment of reaction rates, kinetic laws and factors controlling chemical processes.",
+    "description_ar": "معالجة تعليمية لمعدلات التفاعل وقوانين الحركية والعوامل المتحكمة في العمليات الكيميائية.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/chemical-kinetics-lecture-notes/id927392501"
+  },
+  {
+    "id": "b05",
+    "title": "Nuclear Chemistry Lecture Notes",
+    "date": "08-10-2014",
+    "year": "2014",
+    "pages": 205,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "nuclear"
+    ],
+    "image": "images/books/nuclear-chemistry-lecture-notes.webp",
+    "description_en": "Digital notes introducing nuclear transformations, radioactivity and fundamental nuclear chemistry.",
+    "description_ar": "مذكرات رقمية تقدم التحولات النووية والنشاط الإشعاعي وأساسيات الكيمياء النووية.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/nuclear-chemistry-lecture-notes/id914859215"
+  },
+  {
+    "id": "b06",
+    "title": "Funny Chemistry Experiments",
+    "date": "02-10-2015",
+    "year": "2015",
+    "pages": 132,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "experiments"
+    ],
+    "image": "images/books/funny-chemistry-experiments.webp",
+    "description_en": "An accessible collection of chemistry experiments designed to connect observation with scientific explanation.",
+    "description_ar": "مجموعة مبسطة من التجارب الكيميائية تربط الملاحظة بالتفسير العلمي.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/funny-chemistry-experiments/id966398009"
+  },
+  {
+    "id": "b07",
+    "title": "Corrosion Science Made Easy: Volume 1 — Introduction",
+    "date": "11-10-2014",
+    "year": "2014",
+    "pages": 110,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "corrosion"
+    ],
+    "image": "images/books/corrosion-science-volume-1-introduction.webp",
+    "description_en": "The introductory volume presents the foundations, terminology and practical significance of corrosion science.",
+    "description_ar": "يقدم المجلد التمهيدي أسس علم التآكل ومصطلحاته وأهميته التطبيقية.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/corrosion-science-made-easy-volume-1-introduction/id928858485",
+    "series": "Corrosion Science Made Easy",
+    "part": "Volume 1"
+  },
+  {
+    "id": "b08",
+    "title": "Corrosion Science Made Easy: Volume 2 — Thermodynamics",
+    "date": "03-11-2014",
+    "year": "2014",
+    "pages": 136,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "corrosion",
+      "physical"
+    ],
+    "image": "images/books/corrosion-science-volume-2-thermodynamics.webp",
+    "description_en": "Explains the thermodynamic principles governing corrosion reactions and material stability.",
+    "description_ar": "يشرح المبادئ الديناميكية الحرارية الحاكمة لتفاعلات التآكل واستقرار المواد.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/corrosion-science-made-easy-volume-2-thermodynamics/id936962427",
+    "series": "Corrosion Science Made Easy",
+    "part": "Volume 2"
+  },
+  {
+    "id": "b09",
+    "title": "Corrosion Science Made Easy: Volume 3 — Kinetics",
+    "date": "09-11-2014",
+    "year": "2014",
+    "pages": 185,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "corrosion",
+      "physical"
+    ],
+    "image": "images/books/corrosion-science-volume-3-kinetics.webp",
+    "description_en": "Covers the kinetic interpretation of corrosion rates, electrode processes and controlling mechanisms.",
+    "description_ar": "يتناول التفسير الحركي لمعدلات التآكل والعمليات الكهربية والآليات المتحكمة.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/corrosion-science-made-easy-volume-3-kinetics/id939418666",
+    "series": "Corrosion Science Made Easy",
+    "part": "Volume 3"
+  },
+  {
+    "id": "b10",
+    "title": "Corrosion Science Made Easy: Volume 4 — Forms of Corrosion, Part 1",
+    "date": "10-01-2015",
+    "year": "2015",
+    "pages": 200,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "corrosion"
+    ],
+    "image": "images/books/corrosion-science-volume-4-forms-part-1.webp",
+    "description_en": "Introduces major forms of corrosion and connects their characteristics with real material failures.",
+    "description_ar": "يعرض الأشكال الرئيسة للتآكل ويربط خصائصها بحالات فشل المواد الواقعية.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/corrosion-science-made-easy-volume-4-forms-of/id1954158336",
+    "series": "Corrosion Science Made Easy",
+    "part": "Volume 4"
+  },
+  {
+    "id": "b11",
+    "title": "Corrosion Science Made Easy: Volume 5 — Forms of Corrosion, Part 2",
+    "date": "04-01-2015",
+    "year": "2015",
+    "pages": 128,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "corrosion"
+    ],
+    "image": "images/books/corrosion-science-volume-5-forms-part-2.webp",
+    "description_en": "Continues the study of corrosion forms through additional mechanisms, cases and engineering contexts.",
+    "description_ar": "يستكمل دراسة أشكال التآكل من خلال آليات وحالات وسياقات هندسية إضافية.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/corrosion-science-made-easy-volume-5-forms-of/id1955295988",
+    "series": "Corrosion Science Made Easy",
+    "part": "Volume 5"
+  },
+  {
+    "id": "b12",
+    "title": "Corrosion Science Made Easy: Volume 6 — Prevention of Corrosion",
+    "date": "08-10-2014",
+    "year": "2014",
+    "pages": 145,
+    "publisher": "Apple Books / iTunes United States",
+    "kind": "digital",
+    "categories": [
+      "digital",
+      "corrosion"
+    ],
+    "image": "images/books/corrosion-science-volume-6-prevention.webp",
+    "description_en": "Focuses on practical corrosion control, protection strategies and prevention methods.",
+    "description_ar": "يركز على التحكم العملي في التآكل واستراتيجيات الحماية وأساليب الوقاية.",
+    "author": "Khaled F. Khaled",
+    "url": "https://books.apple.com/us/book/corrosion-science-made-easy-volume-6-prevention-of/id957055574",
+    "series": "Corrosion Science Made Easy",
+    "part": "Volume 6"
+  },
+  {
+    "id": "b13",
+    "title": "Chemical Arithmetic: Questions and Answers",
+    "date": "01-02-2017",
+    "year": "2017",
+    "pages": 226,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "general"
+    ],
+    "image": "images/books/chemical-arithmetic-questions-answers.webp",
+    "description_en": "A problem-based resource for mastering chemical calculations and quantitative reasoning.",
+    "description_ar": "مرجع تدريبي قائم على المسائل لإتقان الحسابات الكيميائية والاستدلال الكمي.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/26041",
+    "isbn": "978-977-90-5120-8"
+  },
+  {
+    "id": "b14",
+    "title": "Chemical Kinetics: Questions and Answers",
+    "date": "08-10-2017",
+    "year": "2017",
+    "pages": 257,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "physical"
+    ],
+    "image": "images/books/chemical-kinetics-questions-answers.webp",
+    "description_en": "Question-and-answer practice in rate laws, reaction mechanisms and kinetic analysis.",
+    "description_ar": "تدريبات بأسلوب الأسئلة والإجابات في قوانين السرعة وآليات التفاعل والتحليل الحركي.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/26042",
+    "isbn": "978-977-90-5121-5"
+  },
+  {
+    "id": "b15",
+    "title": "Electrochemistry: Questions and Answers",
+    "date": "03-05-2017",
+    "year": "2017",
+    "pages": 253,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "physical",
+      "electrochemistry"
+    ],
+    "image": "images/books/electrochemistry-questions-answers.webp",
+    "description_en": "A broad bank of electrochemistry questions for revision, assessment and applied problem-solving.",
+    "description_ar": "بنك واسع من أسئلة الكيمياء الكهربية للمراجعة والتقويم وحل المشكلات التطبيقية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23716",
+    "isbn": "978-977-90-5066-9"
+  },
+  {
+    "id": "b16",
+    "title": "Gases and Their Properties: Questions and Answers",
+    "date": "08-10-2017",
+    "year": "2017",
+    "pages": 358,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "physical"
+    ],
+    "image": "images/books/gases-properties-questions-answers.webp",
+    "description_en": "Covers gas laws, molecular behaviour and quantitative applications through guided questions.",
+    "description_ar": "يغطي قوانين الغازات والسلوك الجزيئي والتطبيقات الكمية من خلال أسئلة موجهة.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/26044",
+    "isbn": "978-977-90-5123-9"
+  },
+  {
+    "id": "b17",
+    "title": "Liquids, Solids and Phase Changes: Questions and Answers",
+    "date": "08-10-2017",
+    "year": "2017",
+    "pages": 242,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "physical"
+    ],
+    "image": "images/books/liquids-solids-phase-changes.webp",
+    "description_en": "Practice on intermolecular forces, states of matter, solids and phase transitions.",
+    "description_ar": "تدريبات على القوى بين الجزيئية وحالات المادة والمواد الصلبة والتحولات الطورية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/26046",
+    "isbn": "978-977-90-5125-3"
+  },
+  {
+    "id": "b18",
+    "title": "Metals and Solid-State Materials: Questions and Answers",
+    "date": "08-10-2017",
+    "year": "2017",
+    "pages": 165,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "physical"
+    ],
+    "image": "images/books/metals-solid-state-materials.webp",
+    "description_en": "Questions addressing metallic structure, solid-state materials and their chemical properties.",
+    "description_ar": "أسئلة تتناول البنية الفلزية ومواد الحالة الصلبة وخواصها الكيميائية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/26040",
+    "isbn": "978-977-90-5119-2"
+  },
+  {
+    "id": "b19",
+    "title": "Nuclear Chemistry: Questions and Answers",
+    "date": "03-07-2017",
+    "year": "2017",
+    "pages": 240,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "nuclear"
+    ],
+    "image": "images/books/nuclear-chemistry-questions-answers.webp",
+    "description_en": "A structured review of radioactivity, nuclear equations and applications of nuclear chemistry.",
+    "description_ar": "مراجعة منظمة للنشاط الإشعاعي والمعادلات النووية وتطبيقات الكيمياء النووية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/26039",
+    "isbn": "978-977-90-5118-5"
+  },
+  {
+    "id": "b20",
+    "title": "Solutions and Their Properties: Questions and Answers",
+    "date": "01-12-2017",
+    "year": "2017",
+    "pages": 326,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "physical"
+    ],
+    "image": "images/books/solutions-properties-questions-answers.webp",
+    "description_en": "Extensive practice on solution composition, concentration, colligative properties and related calculations.",
+    "description_ar": "تدريبات موسعة على تركيب المحاليل والتركيز والخواص الجامعة والحسابات المرتبطة بها.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/26045",
+    "isbn": "978-977-90-5124-6"
+  },
+  {
+    "id": "b21",
+    "title": "Chemical Thermodynamics: Questions and Answers",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "physical"
+    ],
+    "image": "images/books/chemical-thermodynamics-questions-answers.webp",
+    "description_en": "Questions and answers covering energy, entropy, spontaneity and chemical equilibrium.",
+    "description_ar": "أسئلة وإجابات تغطي الطاقة والإنتروبيا والتلقائية والاتزان الكيميائي.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/26043",
+    "isbn": "978-977-90-5122-2"
+  },
+  {
+    "id": "b22",
+    "title": "Transition Elements and Coordination Chemistry: Questions and Answers",
+    "date": "06-07-2017",
+    "year": "2017",
+    "pages": 225,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "inorganic"
+    ],
+    "image": "images/books/transition-elements-coordination-chemistry.webp",
+    "description_en": "A focused question bank on transition-metal chemistry, complexes and coordination principles.",
+    "description_ar": "بنك أسئلة متخصص في كيمياء العناصر الانتقالية والمعقدات ومبادئ التناسق.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/26047",
+    "isbn": "978-977-90-5126-0"
+  },
+  {
+    "id": "b23",
+    "title": "General Chemistry: Questions and Answers — Part I",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "general"
+    ],
+    "image": "images/books/general-chemistry-qa-part-1.webp",
+    "description_en": "Part I of a six-volume question-bank series covering fundamental general chemistry topics.",
+    "description_ar": "الجزء I من سلسلة من ستة أجزاء تغطي موضوعات الكيمياء العامة الأساسية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23705",
+    "isbn": "978-977-90-5055-3",
+    "series": "General Chemistry: Questions and Answers",
+    "part": "Part I"
+  },
+  {
+    "id": "b24",
+    "title": "General Chemistry: Questions and Answers — Part II",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "general"
+    ],
+    "image": "images/books/general-chemistry-qa-part-2.webp",
+    "description_en": "Part II of a six-volume question-bank series covering fundamental general chemistry topics.",
+    "description_ar": "الجزء II من سلسلة من ستة أجزاء تغطي موضوعات الكيمياء العامة الأساسية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23706",
+    "isbn": "978-977-90-5056-0",
+    "series": "General Chemistry: Questions and Answers",
+    "part": "Part II"
+  },
+  {
+    "id": "b25",
+    "title": "General Chemistry: Questions and Answers — Part III",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "general"
+    ],
+    "image": "images/books/general-chemistry-qa-part-3.webp",
+    "description_en": "Part III of a six-volume question-bank series covering fundamental general chemistry topics.",
+    "description_ar": "الجزء III من سلسلة من ستة أجزاء تغطي موضوعات الكيمياء العامة الأساسية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23707",
+    "isbn": "978-977-90-5057-7",
+    "series": "General Chemistry: Questions and Answers",
+    "part": "Part III"
+  },
+  {
+    "id": "b26",
+    "title": "General Chemistry: Questions and Answers — Part IV",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "general"
+    ],
+    "image": "images/books/general-chemistry-qa-part-4.webp",
+    "description_en": "Part IV of a six-volume question-bank series covering fundamental general chemistry topics.",
+    "description_ar": "الجزء IV من سلسلة من ستة أجزاء تغطي موضوعات الكيمياء العامة الأساسية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23708",
+    "isbn": "978-977-90-5058-4",
+    "series": "General Chemistry: Questions and Answers",
+    "part": "Part IV"
+  },
+  {
+    "id": "b27",
+    "title": "General Chemistry: Questions and Answers — Part V",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "general"
+    ],
+    "image": "images/books/general-chemistry-qa-part-5.webp",
+    "description_en": "Part V of a six-volume question-bank series covering fundamental general chemistry topics.",
+    "description_ar": "الجزء V من سلسلة من ستة أجزاء تغطي موضوعات الكيمياء العامة الأساسية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23709",
+    "isbn": "978-977-90-5059-1",
+    "series": "General Chemistry: Questions and Answers",
+    "part": "Part V"
+  },
+  {
+    "id": "b28",
+    "title": "General Chemistry: Questions and Answers — Part VI",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "general"
+    ],
+    "image": "images/books/general-chemistry-qa-part-6.webp",
+    "description_en": "Part VI of a six-volume question-bank series covering fundamental general chemistry topics.",
+    "description_ar": "الجزء VI من سلسلة من ستة أجزاء تغطي موضوعات الكيمياء العامة الأساسية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23710",
+    "isbn": "978-977-90-5060-8",
+    "series": "General Chemistry: Questions and Answers",
+    "part": "Part VI"
+  },
+  {
+    "id": "b29",
+    "title": "Organic Chemistry: Questions and Answers — Part I",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "organic"
+    ],
+    "image": "images/books/organic-chemistry-qa-part-1.webp",
+    "description_en": "Part I of a five-volume series supporting revision and problem-solving in organic chemistry.",
+    "description_ar": "الجزء I من سلسلة من خمسة أجزاء لدعم المراجعة وحل المشكلات في الكيمياء العضوية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23711",
+    "isbn": "978-977-90-5061-4",
+    "series": "Organic Chemistry: Questions and Answers",
+    "part": "Part I"
+  },
+  {
+    "id": "b30",
+    "title": "Organic Chemistry: Questions and Answers — Part II",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "organic"
+    ],
+    "image": "images/books/organic-chemistry-qa-part-2.webp",
+    "description_en": "Part II of a five-volume series supporting revision and problem-solving in organic chemistry.",
+    "description_ar": "الجزء II من سلسلة من خمسة أجزاء لدعم المراجعة وحل المشكلات في الكيمياء العضوية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23712",
+    "isbn": "978-977-90-5062-1",
+    "series": "Organic Chemistry: Questions and Answers",
+    "part": "Part II"
+  },
+  {
+    "id": "b31",
+    "title": "Organic Chemistry: Questions and Answers — Part III",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "organic"
+    ],
+    "image": "images/books/organic-chemistry-qa-part-3.webp",
+    "description_en": "Part III of a five-volume series supporting revision and problem-solving in organic chemistry.",
+    "description_ar": "الجزء III من سلسلة من خمسة أجزاء لدعم المراجعة وحل المشكلات في الكيمياء العضوية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23713",
+    "isbn": "978-977-90-5063-8",
+    "series": "Organic Chemistry: Questions and Answers",
+    "part": "Part III"
+  },
+  {
+    "id": "b32",
+    "title": "Organic Chemistry: Questions and Answers — Part IV",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "organic"
+    ],
+    "image": "images/books/organic-chemistry-qa-part-4.webp",
+    "description_en": "Part IV of a five-volume series supporting revision and problem-solving in organic chemistry.",
+    "description_ar": "الجزء IV من سلسلة من خمسة أجزاء لدعم المراجعة وحل المشكلات في الكيمياء العضوية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23714",
+    "isbn": "978-977-90-5064-5",
+    "series": "Organic Chemistry: Questions and Answers",
+    "part": "Part IV"
+  },
+  {
+    "id": "b33",
+    "title": "Organic Chemistry: Questions and Answers — Part V",
+    "date": "08-07-2017",
+    "year": "2017",
+    "pages": 282,
+    "publisher": "Ibn Khaldon",
+    "kind": "printed",
+    "categories": [
+      "questionbank",
+      "organic"
+    ],
+    "image": "images/books/organic-chemistry-qa-part-5.webp",
+    "description_en": "Part V of a five-volume series supporting revision and problem-solving in organic chemistry.",
+    "description_ar": "الجزء V من سلسلة من خمسة أجزاء لدعم المراجعة وحل المشكلات في الكيمياء العضوية.",
+    "author": "Khaled F. Khaled",
+    "deposit_number": "2017/23715",
+    "isbn": "978-977-90-5065-2",
+    "series": "Organic Chemistry: Questions and Answers",
+    "part": "Part V"
+  }
+]

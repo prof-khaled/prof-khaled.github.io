@@ -1,0 +1,121 @@
+/* Prof. Khaled Academic Platform V4.2 — site-wide contrast and readability layer */
+:root{
+  --a11y-text:#172633;
+  --a11y-muted:#465967;
+  --a11y-link:#075985;
+  --a11y-dark:#061827;
+  --a11y-dark-surface:#0d2940;
+  --a11y-dark-text:#ffffff;
+  --a11y-dark-muted:#d8e4eb;
+  --a11y-light:#ffffff;
+  --a11y-soft:#f4f6f7;
+  --a11y-border:#9aa9b4;
+  --a11y-gold:#d7ad5b;
+}
+
+/* Base readability */
+body{color:var(--a11y-text);}
+main,section,article,aside,dialog{color:inherit;}
+p,li,dd,figcaption,.muted,.lead,.intro-secondary,.section-intro>p:last-child,.section-heading>p:last-child{
+  color:var(--a11y-muted);
+}
+a{color:var(--a11y-link);}
+a:hover{text-decoration-thickness:2px;text-underline-offset:3px;}
+small,.meta,.caption{color:#526572;}
+
+/* Light surfaces: prevent inherited pale text */
+:is(.v4-section,.section,.content-section,.publications-section,.awards-browser,.award-category-section,.services-section,
+.support-section,.formats-section,.beneficiaries-section,.process-section,.request-section,.faq-section,
+.book-section,.featured-recognition,.recognition-closing,.publication-card,.award-card,.book-card,.service-domain,
+.field-card,.impact-card,.support-grid article,.formats-grid article,.process-list article,.faq-list details,
+.v4-card,.v4-pathway,.v4-metric,.service-form,.request-form,.dialog-shell,.dialog-body,.v4-search-panel)
+:is(p,li,dd,figcaption,small,.muted,.lead,.intro-secondary,.service-summary,.award-description,.award-issuer,
+.book-card-description,.book-meta,.publication-results,.publication-empty,.formats-intro,.request-copy>p:last-of-type){
+  color:var(--a11y-muted)!important;
+}
+:is(.v4-section,.section,.content-section,.publications-section,.awards-browser,.award-category-section,.services-section,
+.support-section,.formats-section,.beneficiaries-section,.process-section,.request-section,.faq-section,
+.book-section,.featured-recognition,.recognition-closing,.publication-card,.award-card,.book-card,.service-domain,
+.field-card,.impact-card,.support-grid article,.formats-grid article,.process-list article,.faq-list details,
+.v4-card,.v4-pathway,.v4-metric,.service-form,.request-form,.dialog-shell,.dialog-body,.v4-search-panel)
+:is(h1,h2,h3,h4,h5,h6,strong,b,dt,label,legend){
+  color:var(--a11y-text)!important;
+}
+
+/* Dark and image-backed areas */
+:is(.dark,.v4-hero,.v4-feature-band,.services-hero,.training-section,.final-cta,.books-hero,.awards-hero,
+.research-bridge,.global-footer,.footer,.hero,.page-hero,.cta-dark,.dark-section,[data-theme="dark"]){
+  color:var(--a11y-dark-text)!important;
+}
+:is(.dark,.v4-hero,.v4-feature-band,.services-hero,.training-section,.final-cta,.books-hero,.awards-hero,
+.research-bridge,.global-footer,.footer,.hero,.page-hero,.cta-dark,.dark-section,[data-theme="dark"])
+:is(h1,h2,h3,h4,h5,h6,strong,b,dt,label,legend){color:#fff!important;}
+:is(.dark,.v4-hero,.v4-feature-band,.services-hero,.training-section,.final-cta,.books-hero,.awards-hero,
+.research-bridge,.global-footer,.footer,.hero,.page-hero,.cta-dark,.dark-section,[data-theme="dark"])
+:is(p,li,dd,figcaption,small,.muted,.lead,.intro-secondary,.hero-lead,.portfolio-note,.section-heading--light>p:last-child){
+  color:var(--a11y-dark-muted)!important;
+}
+:is(.dark,.v4-hero,.v4-feature-band,.services-hero,.training-section,.final-cta,.books-hero,.awards-hero,
+.research-bridge,.global-footer,.footer,.hero,.page-hero,.cta-dark,.dark-section,[data-theme="dark"]) a:not(.v4-btn-primary):not(.button--gold){
+  color:#f5d58f!important;
+}
+
+/* Dark-mode surfaces */
+body.v4-dark{background:#081725!important;color:#f2f7fa!important;}
+body.v4-dark :is(main,.v4-section,.section,.content-section){color:#f2f7fa;}
+body.v4-dark :is(.v4-card,.v4-pathway,.v4-metric,.publication-card,.award-card,.book-card,.service-domain,
+.field-card,.impact-card,.support-grid article,.formats-grid article,.process-list article,.faq-list details,
+.service-form,.request-form,.dialog-shell,.dialog-body,.v4-search-panel,.publication-controls){
+  background:#10283b!important;
+  color:#f2f7fa!important;
+  border-color:#50697b!important;
+}
+body.v4-dark :is(.v4-card,.v4-pathway,.v4-metric,.publication-card,.award-card,.book-card,.service-domain,
+.field-card,.impact-card,.support-grid article,.formats-grid article,.process-list article,.faq-list details,
+.service-form,.request-form,.dialog-shell,.dialog-body,.v4-search-panel,.publication-controls)
+:is(h1,h2,h3,h4,h5,h6,strong,b,dt,label,legend){color:#fff!important;}
+body.v4-dark :is(.v4-card,.v4-pathway,.v4-metric,.publication-card,.award-card,.book-card,.service-domain,
+.field-card,.impact-card,.support-grid article,.formats-grid article,.process-list article,.faq-list details,
+.service-form,.request-form,.dialog-shell,.dialog-body,.v4-search-panel,.publication-controls)
+:is(p,li,dd,figcaption,small,.muted,.lead,.intro-secondary,.service-summary,.award-description,.award-issuer,
+.book-card-description,.book-meta,.publication-results,.publication-empty,.formats-intro){color:#d2dee6!important;}
+body.v4-dark a{color:#9fd8ff;}
+body.v4-dark .v4-tag{background:#3b331d;color:#ffe4a3;}
+body.v4-dark .v4-metric strong{color:#8bd2ff;}
+
+/* Forms, controls and placeholders */
+input,select,textarea,button{font:inherit;}
+input,select,textarea{
+  background:#fff;color:#172633;border-color:#7e909c;
+}
+input::placeholder,textarea::placeholder{color:#667985;opacity:1;}
+body.v4-dark input,body.v4-dark select,body.v4-dark textarea{
+  background:#0b2234!important;color:#fff!important;border-color:#7891a2!important;
+}
+body.v4-dark input::placeholder,body.v4-dark textarea::placeholder{color:#c7d3db!important;opacity:1;}
+:focus-visible{outline:3px solid #f0bd54!important;outline-offset:3px;}
+
+/* Navigation and toolbar */
+.global-header,.global-navigation,.global-nav-shell{color:#fff;}
+.global-navigation a,.global-dropdown>button{color:#fff!important;}
+.global-navigation a:hover,.global-dropdown>button:hover,.global-navigation a[aria-current="page"]{color:#071b2e!important;}
+.v4-icon-btn{background:#fff!important;color:#071b2e!important;border-color:#6d7f8c!important;}
+.v4-icon-btn:hover{background:#f0c66f!important;color:#071b2e!important;}
+
+/* Buttons */
+.button,.btn,.v4-btn,.book-action,.view-document,.publication-clear,.publication-load-more{
+  font-weight:700;
+}
+.v4-btn-primary,.button--gold{background:#e0b65f!important;color:#071b2e!important;}
+.v4-btn-secondary,.button--outline{color:#fff!important;border-color:#fff!important;}
+
+/* Tables */
+table{background:var(--a11y-light);color:var(--a11y-text);}
+th{background:#0b2d47;color:#fff;}
+td{border-color:#aab6be;}
+body.v4-dark table{background:#10283b;color:#f2f7fa;}
+body.v4-dark td{border-color:#50697b;}
+
+/* Selection and reduced-motion support */
+::selection{background:#f0c66f;color:#071b2e;}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;}}

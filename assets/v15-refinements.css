@@ -1,0 +1,206 @@
+/* V15: navigation balance, bilingual on-page navigation, and media-safe layout */
+:root{
+  --v15-navy:#071b2e;
+  --v15-blue:#143f62;
+  --v15-gold:#d7ad5b;
+  --v15-gold-light:#f2cf83;
+  --v15-paper:#f5f2ea;
+  --v15-ink:#14212c;
+  --v15-muted:#53616b;
+  --v15-line:#ccd5dc;
+}
+
+/* Consistent readable type without loading additional font files. */
+html[lang="en"] body.v15-site{font-family:Arial,"Segoe UI",sans-serif}
+html[lang="ar"] body.v15-site{font-family:"Noto Sans Arabic",Tahoma,Arial,sans-serif;line-height:1.72}
+body.v15-site main h1,
+body.v15-site main h2,
+body.v15-site main h3{line-height:1.25;text-wrap:balance}
+html[lang="ar"] body.v15-site main h1,
+html[lang="ar"] body.v15-site main h2,
+html[lang="ar"] body.v15-site main h3{line-height:1.42;letter-spacing:0!important}
+
+/* Main navigation after removing the duplicated Collaboration item. */
+@media (min-width:1101px){
+  body.v15-site .v13-nav-shell .kfk-nav{
+    display:flex!important;
+    align-items:stretch;
+    justify-content:center;
+    gap:0;
+    min-width:0;
+  }
+  body.v15-site .v13-nav-shell .kfk-nav>a,
+  body.v15-site .v13-nav-shell .kfk-nav>.kfk-dd>button{
+    width:auto!important;
+    min-height:54px;
+    padding:8px 13px!important;
+    font-size:clamp(.78rem,.7rem + .18vw,.91rem)!important;
+    line-height:1.25;
+    white-space:nowrap;
+  }
+  body.v15-site .v13-nav-shell .kfk-nav>.v14-about-menu{flex:0 0 auto}
+  body.v15-site .v13-nav-shell .kfk-nav>.v14-center-menu{flex:1 1 355px;min-width:270px;max-width:410px}
+  body.v15-site .v13-nav-shell .kfk-nav>.v14-center-menu>button{
+    width:100%!important;
+    white-space:normal!important;
+    text-wrap:balance;
+  }
+  body.v15-site .v13-nav-shell .kfk-nav>.v13-hub-menu{flex:0 1 165px}
+  body.v15-site .v13-nav-shell .v14-signin{
+    align-self:center;
+    min-height:34px!important;
+    height:34px!important;
+    max-width:104px;
+    margin:10px 5px!important;
+    padding:6px 12px!important;
+    border:1px solid var(--v15-gold)!important;
+    border-radius:999px!important;
+    font-size:.79rem!important;
+    white-space:nowrap;
+    flex:0 0 auto;
+  }
+  body.v15-site .v13-nav-shell .v14-lang{
+    flex:0 0 auto;
+    align-self:center;
+    min-height:54px;
+    padding-inline:4px 1px!important;
+    gap:2px;
+  }
+  body.v15-site .v13-nav-shell .v14-lang button{
+    min-width:32px!important;
+    min-height:30px!important;
+    padding-inline:6px!important;
+    font-size:.78rem!important;
+  }
+}
+
+/* Ensure the compact menu still has comfortable touch targets. */
+@media (max-width:1100px){
+  body.v15-site .v13-nav-shell .v14-signin{max-width:none;margin:5px!important;min-height:44px!important}
+  body.v15-site .v13-nav-shell .v14-lang{display:flex!important;align-items:center;gap:.4rem;padding:7px!important}
+}
+
+/* Home uses the complete approved profile portrait, with no cropping in either language. */
+body.v15-site.home-page .portrait{
+  width:min(100%,600px)!important;
+  aspect-ratio:5/4!important;
+  height:auto!important;
+  min-height:0!important;
+  padding:0!important;
+  background:#0a2943!important;
+  border:1px solid #315878!important;
+  overflow:hidden!important;
+}
+body.v15-site.home-page .portrait img{
+  width:100%!important;
+  height:100%!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  background:#0a2943!important;
+}
+@media(max-width:900px){body.v15-site.home-page .portrait{width:min(100%,620px)!important;justify-self:center!important}}
+@media(max-width:480px){body.v15-site.home-page .portrait{aspect-ratio:5/4!important}}
+
+/* Every substantive page image must remain fully visible rather than being clipped. */
+body.v15-site main img{
+  max-inline-size:100%;
+  object-fit:contain!important;
+  object-position:center!important;
+}
+body.v15-site main figure,
+body.v15-site main article{min-width:0}
+body.v15-site main figure>img,
+body.v15-site main article>img,
+body.v15-site main picture>img,
+body.v15-site main .card img,
+body.v15-site main .highlight img,
+body.v15-site main .feature img,
+body.v15-site main .intro-image,
+body.v15-site main .hero-image img,
+body.v15-site main .service-card-image,
+body.v15-site main .training-card-image,
+body.v15-site main .section-feature-image img,
+body.v15-site main .center-visual-card img,
+body.v15-site main .service-hero-picture img{
+  background:#eef2f5;
+}
+
+/* Infographics and center banners use a stable 16:9 canvas and remain complete. */
+body.v15-site .service-hero-picture,
+body.v15-site .center-visual-card{background:#071b2e}
+body.v15-site .service-hero-picture img,
+body.v15-site .center-visual-card img{
+  width:100%!important;
+  height:auto!important;
+  aspect-ratio:16/9!important;
+  object-fit:contain!important;
+}
+body.v15-site .center-visual-card figcaption{min-height:4.6rem;display:flex;align-items:center}
+
+/* Generated and static “On this page” components: high contrast and visible on mobile. */
+body.v15-site .pk-on-this-page,
+body.v15-site .v13-on-page{
+  color:var(--v15-ink)!important;
+  background:#eef3f7!important;
+  border:1px solid #c2d0da!important;
+  border-inline-start:6px solid var(--v15-gold)!important;
+  box-shadow:0 8px 22px rgba(7,27,46,.07);
+}
+body.v15-site .pk-on-this-page{padding:1.1rem 1.25rem!important;border-radius:10px;margin:1.35rem 0 2rem!important}
+body.v15-site .pk-on-this-page h2,
+body.v15-site .v13-on-page strong{
+  display:block!important;
+  color:var(--v15-navy)!important;
+  background:transparent!important;
+  font-size:clamp(1.02rem,1rem + .3vw,1.28rem)!important;
+  font-weight:800!important;
+  line-height:1.5!important;
+  margin:0 0 .75rem!important;
+  opacity:1!important;
+}
+body.v15-site .pk-on-this-page ol{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.5rem .85rem;margin:0!important;padding-inline-start:1.35rem!important}
+body.v15-site .pk-on-this-page a,
+body.v15-site .v13-on-page a{
+  color:#0b4a78!important;
+  background:#fff!important;
+  border-color:#9eb2c1!important;
+  text-decoration:none!important;
+  font-weight:700!important;
+  line-height:1.5;
+}
+body.v15-site .pk-on-this-page a:hover,
+body.v15-site .pk-on-this-page a:focus-visible,
+body.v15-site .v13-on-page a:hover,
+body.v15-site .v13-on-page a:focus-visible{
+  color:#fff!important;
+  background:var(--v15-navy)!important;
+  border-color:var(--v15-navy)!important;
+}
+@media(max-width:700px){
+  body.v15-site .pk-on-this-page{display:block!important}
+  body.v15-site .pk-on-this-page ol{grid-template-columns:1fr}
+  body.v15-site .v13-on-page{padding:1rem 1.1rem!important}
+  body.v15-site .v13-on-page ul{grid-template-columns:1fr!important}
+}
+
+/* Link contrast: never fall back to unreadable browser-purple on blue surfaces. */
+body.v15-site a:visited{color:inherit}
+body.v15-site .kfk-site-header a,
+body.v15-site .kfk-site-header a:visited,
+body.v15-site .kfk-nav-shell a,
+body.v15-site .kfk-nav-shell a:visited{color:inherit}
+body.v15-site .hero .institution-link,
+body.v15-site .hero .institution-link:visited,
+body.v15-site .dark .institution-link,
+body.v15-site .dark .institution-link:visited{color:var(--v15-gold-light)!important}
+body.v15-site .institution-link:focus-visible,
+body.v15-site .institution-link:hover{color:#ffe3a8!important;text-decoration-thickness:2px}
+
+/* Prevent very long bilingual labels from overflowing cards and controls. */
+body.v15-site button,
+body.v15-site a,
+body.v15-site h1,
+body.v15-site h2,
+body.v15-site h3{overflow-wrap:anywhere}
+body.v15-site .kfk-nav button,
+body.v15-site .kfk-nav>a{overflow-wrap:normal}
