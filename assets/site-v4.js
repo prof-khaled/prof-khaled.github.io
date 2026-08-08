@@ -1,0 +1,13 @@
+
+(()=>{const d=document,root=d.documentElement;const q=(s,c=d)=>c.querySelector(s),qa=(s,c=d)=>[...c.querySelectorAll(s)];
+const progress=d.createElement('div');progress.className='v4-progress';d.body.append(progress);
+const back=d.createElement('button');back.className='v4-backtop';back.type='button';back.setAttribute('aria-label','Back to top');back.textContent='↑';back.onclick=()=>scrollTo({top:0,behavior:'smooth'});d.body.append(back);
+addEventListener('scroll',()=>{const h=d.documentElement.scrollHeight-innerHeight,p=h>0?scrollY/h*100:0;progress.style.width=p+'%';back.classList.toggle('show',scrollY>500)},{passive:true});
+const nav=q('.global-navigation');if(nav){const tools=d.createElement('div');tools.className='v4-toolbar';tools.innerHTML='<button class="v4-icon-btn" type="button" data-v4-search aria-label="Search">⌕</button><button class="v4-icon-btn" type="button" data-v4-theme aria-label="Toggle dark mode">◐</button>';nav.append(tools)}
+const saved=localStorage.getItem('pk-theme');if(saved==='dark')d.body.classList.add('v4-dark');q('[data-v4-theme]')?.addEventListener('click',()=>{d.body.classList.toggle('v4-dark');localStorage.setItem('pk-theme',d.body.classList.contains('v4-dark')?'dark':'light')});
+const dialog=d.createElement('div');dialog.className='v4-search-dialog';dialog.setAttribute('role','dialog');dialog.setAttribute('aria-modal','true');dialog.innerHTML='<div class="v4-search-panel"><div class="v4-search-top"><input type="search" placeholder="Search the website / ابحث في الموقع" aria-label="Website search"><button class="v4-icon-btn" type="button" data-v4-close aria-label="Close">×</button></div><div class="v4-search-results"></div></div>';d.body.append(dialog);
+let index=[];fetch('assets/site-search-index.json').then(r=>r.json()).then(x=>index=x).catch(()=>{});const input=q('input',dialog),results=q('.v4-search-results',dialog);
+function render(){const term=input.value.trim().toLowerCase();const found=term?index.filter(x=>(x.title+' '+x.text).toLowerCase().includes(term)).slice(0,12):index.slice(0,8);results.innerHTML=found.map(x=>`<a class="v4-result" href="${x.url}"><strong>${x.title}</strong><span>${x.text.slice(0,130)}</span></a>`).join('')||'<div class="v4-result">No results / لا توجد نتائج</div>'}
+function open(){dialog.classList.add('open');render();setTimeout(()=>input.focus(),20)}function close(){dialog.classList.remove('open')}
+q('[data-v4-search]')?.addEventListener('click',open);q('[data-v4-close]')?.addEventListener('click',close);dialog.addEventListener('click',e=>{if(e.target===dialog)close()});input.addEventListener('input',render);addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();open()}if(e.key==='Escape')close()});
+})();

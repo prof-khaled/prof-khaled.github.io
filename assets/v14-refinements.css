@@ -1,0 +1,132 @@
+/* V14 navigation, bilingual UI, image and accessibility refinements */
+:root{
+  --v14-navy:#061a2c;
+  --v14-navy-2:#0b2d49;
+  --v14-gold:#d7ad5b;
+  --v14-gold-2:#f0c976;
+  --v14-paper:#fbf8f0;
+  --v14-ink:#152332;
+}
+
+/* Keep institution links readable on both dark and light surfaces. */
+.institution-link,
+.institution-link:visited{color:#16496e;text-decoration-color:currentColor}
+.kfk-utility .institution-link,
+.kfk-utility .institution-link:visited,
+.kfk-site-footer .institution-link,
+.kfk-site-footer .institution-link:visited{color:var(--v14-gold-2)}
+.kfk-identity .institution-link,
+.kfk-identity .institution-link:visited{color:#16496e}
+.hero .institution-link,
+.hero .institution-link:visited,
+.dark .institution-link,
+.dark .institution-link:visited{color:var(--v14-gold-2)}
+.highlight .institution-link,
+.highlight .institution-link:visited{color:#16496e}
+.institution-link:hover,.institution-link:focus-visible{color:#9a671a}
+
+/* Desktop navigation: balanced content widths instead of equal oversized boxes. */
+@media (min-width:1101px){
+  .v13-nav-shell .kfk-nav{
+    display:flex!important;
+    align-items:stretch;
+    gap:0;
+    min-width:0;
+  }
+  .v13-nav-shell .kfk-nav>a,
+  .v13-nav-shell .kfk-nav>.kfk-dd>button{
+    width:auto!important;
+    min-height:54px;
+    padding:8px 11px!important;
+    font-size:clamp(.75rem,.65rem + .22vw,.9rem);
+    line-height:1.2;
+    white-space:nowrap;
+  }
+  .v13-nav-shell .kfk-nav>.kfk-dd{flex:0 0 auto}
+  .v13-nav-shell .kfk-nav>.v14-center-menu{flex:1 1 300px;min-width:230px}
+  .v13-nav-shell .kfk-nav>.v14-center-menu>button{
+    width:100%!important;
+    white-space:normal;
+    text-wrap:balance;
+  }
+  .v13-nav-shell .kfk-nav>.v14-about-menu{flex:0 0 auto}
+  .v13-nav-shell .v14-signin{
+    align-self:center;
+    min-height:36px!important;
+    height:36px;
+    margin:8px 5px;
+    padding:7px 13px!important;
+    border:1px solid var(--v14-gold)!important;
+    border-radius:999px;
+    white-space:nowrap;
+    flex:0 0 auto;
+  }
+  .v13-nav-shell .v14-lang{
+    flex:0 0 auto;
+    align-self:center;
+    min-height:54px;
+    padding-inline:5px 2px;
+  }
+  .v13-nav-shell .v14-lang button{min-width:34px;min-height:32px;padding-inline:7px}
+}
+
+/* Switch to the compact menu before navigation starts crowding. */
+@media (max-width:1100px){
+  .v13-nav-shell .kfk-menu-toggle{display:block!important}
+  .v13-nav-shell .kfk-nav{display:none!important;grid-template-columns:1fr 1fr!important}
+  .v13-nav-shell .kfk-nav.is-open{display:grid!important}
+  .v13-nav-shell .kfk-dd-panel{position:static!important;min-width:0!important;box-shadow:none!important;grid-column:1/-1}
+  .v13-nav-shell .v14-center-menu>button{line-height:1.35!important}
+  .v13-nav-shell .v14-signin{margin:5px;border-radius:6px;min-height:44px!important}
+  .v13-nav-shell .v14-lang{min-height:52px;padding:7px;grid-column:auto}
+}
+@media (max-width:620px){
+  .v13-nav-shell .kfk-nav{grid-template-columns:1fr!important}
+  .v13-nav-shell .kfk-dd-panel,.v13-nav-shell .v14-lang{grid-column:1!important}
+  .v13-nav-shell .v14-lang{justify-content:flex-start}
+}
+
+/* Home portrait supplied for V14. */
+.home-page .portrait{background:#0a2943;border-color:#315878;aspect-ratio:4/5;height:auto;min-height:0}
+.home-page .portrait img{object-position:center center}
+
+/* Corrosion center visual system. */
+.service-hero-picture{display:block;overflow:hidden;border-radius:14px;background:#071b2e}
+.service-hero-picture img{width:100%;height:auto;display:block;aspect-ratio:16/9;object-fit:cover}
+.center-visual-showcase{padding:clamp(2.25rem,5vw,4.5rem) 0;background:#eef2f5;border-block:1px solid #d5dde4}
+.center-visual-showcase .kfk-wrap{display:grid;gap:1.2rem}
+.center-visual-showcase h2{margin:.25rem 0;font-size:clamp(1.65rem,3vw,2.75rem);color:var(--v14-navy)}
+.center-visual-showcase p{max-width:75ch;color:#445769}
+.center-visual-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.15rem}
+.center-visual-card{margin:0;background:#fff;border:1px solid #ccd6df;border-radius:14px;overflow:hidden;box-shadow:0 14px 32px rgba(6,26,44,.08)}
+.center-visual-card img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.center-visual-card figcaption{padding:1rem 1.1rem;color:#32475a;font-size:.93rem;line-height:1.6}
+@media(max-width:800px){.center-visual-grid{grid-template-columns:1fr}}
+
+/* Google sign-in is the primary free account path. */
+.auth-google-box{display:grid;gap:.75rem;margin-bottom:1.2rem;padding:1rem;border:1px solid #d6dde4;border-radius:12px;background:#f8fafc}
+.auth-google-button{display:flex;align-items:center;justify-content:center;gap:.75rem;width:100%;min-height:48px;border:1px solid #bfc9d3;border-radius:8px;background:#fff;color:#152332;font-weight:700;cursor:pointer}
+.auth-google-button:hover,.auth-google-button:focus-visible{border-color:#315878;box-shadow:0 0 0 3px rgba(49,88,120,.14)}
+.auth-google-button svg{width:20px;height:20px;flex:none}
+.auth-free-note{margin:0;color:#466074;font-size:.9rem;line-height:1.55}
+.auth-divider{display:flex;align-items:center;gap:.8rem;margin:1rem 0;color:#718191;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}
+.auth-divider:before,.auth-divider:after{content:"";height:1px;background:#d5dde4;flex:1}
+html[lang="ar"] .auth-divider{letter-spacing:0;text-transform:none}
+
+/* Accessibility statement. */
+.accessibility-main{max-width:1000px;margin:auto;padding:clamp(2.5rem,6vw,5rem) clamp(1.25rem,5vw,3rem)}
+.accessibility-main h1{font-size:clamp(2.15rem,5vw,4rem);color:var(--v14-navy);margin:0 0 1.2rem}
+.accessibility-main h2{color:var(--v14-navy);margin-top:2.2rem}
+.accessibility-main p,.accessibility-main li{line-height:1.8}
+.accessibility-main .accessibility-summary{font-size:1.15rem;background:#eef3f7;border-inline-start:5px solid var(--v14-gold);padding:1rem 1.2rem}
+.accessibility-main .accessibility-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:1.2rem}
+.accessibility-main .accessibility-card{background:#fff;border:1px solid #d7dee5;border-radius:10px;padding:1.15rem}
+@media(max-width:720px){.accessibility-main .accessibility-grid{grid-template-columns:1fr}}
+
+/* Ensure bilingual text never leaves residual visited-link purple. */
+a:visited{color:inherit}
+.kfk-dd-panel a:visited{color:var(--v14-ink)}
+.v13-signin:visited,.v14-signin:visited,.v13-account-link:visited{color:#071b2e}
+
+/* Future image slots remain stable when more Arabic/English assets are added. */
+[data-center-image-slot]{min-height:160px;background:#e8edf2}

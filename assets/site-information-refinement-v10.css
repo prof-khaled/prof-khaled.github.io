@@ -1,0 +1,20 @@
+
+/* V10 information architecture and duplication refinement */
+.kfk-contact-bridge{background:linear-gradient(105deg,#f5f2ea,#e9e1d4);border-block:1px solid #d7ad5b;padding:clamp(2rem,4vw,3rem) 0}
+.kfk-contact-bridge-inner{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:clamp(1.5rem,4vw,3rem);align-items:center}
+.kfk-contact-bridge-kicker{margin:0 0 .45rem;color:#9a671a;font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.kfk-contact-bridge h2{margin:0 0 .6rem;color:#061a2c;font-family:Georgia,serif;font-size:clamp(1.5rem,2.5vw,2.4rem);line-height:1.25}
+.kfk-contact-bridge p{margin:0;color:#445566;max-width:760px}
+.kfk-contact-bridge-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:.75rem}
+.kfk-contact-primary,.kfk-contact-secondary{min-height:44px;display:inline-flex;align-items:center;justify-content:center;padding:.75rem 1rem;font-weight:700;border:1px solid #d7ad5b;text-decoration:none}
+.kfk-contact-primary{background:#d7ad5b;color:#061a2c}.kfk-contact-secondary{background:transparent;color:#061a2c}
+.kfk-contact-primary:hover,.kfk-contact-primary:focus-visible{background:#061a2c;color:#fff;border-color:#061a2c}
+.kfk-contact-secondary:hover,.kfk-contact-secondary:focus-visible{background:#fff}
+.institution-link{text-decoration:underline;text-decoration-color:rgba(215,173,91,.75);text-underline-offset:.18em;text-decoration-thickness:1px}
+.institution-link:hover,.institution-link:focus-visible{color:#b47b20;text-decoration-thickness:2px}
+.kfk-page-intro{padding:clamp(2rem,4vw,3.5rem) 0;background:linear-gradient(135deg,#061a2c,#0a2740);color:#fff;border-bottom:2px solid #d7ad5b}
+.kfk-page-intro h1{margin:.4rem 0 .75rem;font-family:Georgia,serif;font-size:clamp(2rem,4vw,3.8rem);line-height:1.12}.kfk-page-intro p{max-width:850px;margin:0;color:#d9e3ea}
+/* tighter professional vertical rhythm */
+main>.section,main>section.section,.content-section{padding-block:clamp(2.4rem,4.5vw,4rem)!important}
+section:empty,.empty-section{display:none!important}
+@media(max-width:760px){.kfk-contact-bridge-inner{grid-template-columns:1fr}.kfk-contact-bridge-actions{justify-content:flex-start}.kfk-contact-primary,.kfk-contact-secondary{width:100%}}
