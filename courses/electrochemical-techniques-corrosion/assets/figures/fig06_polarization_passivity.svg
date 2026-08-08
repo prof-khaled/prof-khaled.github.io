@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img"><style>
+text{font-family:Arial,DejaVu Sans,sans-serif;fill:#10233f} .title{font-size:24px;font-weight:700}.label{font-size:16px}.small{font-size:13px}.axis{stroke:#10233f;stroke-width:2}.gold{stroke:#c6a33a;fill:none;stroke-width:3}.navy{stroke:#10233f;fill:none;stroke-width:3}.cream{fill:#f7f1e3}.bluefill{fill:#dce8f6}.goldfill{fill:#f1e2a6}.red{stroke:#a63d40;fill:none;stroke-width:3}.green{stroke:#2f7d5c;fill:none;stroke-width:3}.dash{stroke-dasharray:8 6}.grid{stroke:#c9d2de;stroke-width:1}.arrow{marker-end:url(#arrow)}
+</style><defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#10233f"/></marker></defs>
+<rect width="900" height="520" class="cream"/><text x="450" y="38" text-anchor="middle" class="title">Active–passive polarization and cyclic scan</text>
+<line x1="120" y1="440" x2="820" y2="440" class="axis arrow"/><line x1="120" y1="440" x2="120" y2="80" class="axis arrow"/><text x="825" y="448" class="label">log current density</text><text x="55" y="95" class="label" transform="rotate(-90 55 95)">potential</text>
+<path d="M180 400 C250 360 310 310 350 230 C370 190 390 225 410 250 L650 250 C700 250 735 190 770 100" class="red"/>
+<path d="M770 100 C730 180 690 300 610 330 C520 365 420 360 330 320" class="green dash"/>
+<line x1="350" y1="230" x2="350" y2="440" class="navy dash"/><text x="315" y="220" class="small">Epp / icrit</text><text x="520" y="235" class="small">passive plateau, ipass</text><text x="720" y="95" class="small">breakdown / transpassive</text><text x="545" y="390" class="small">reverse scan: hysteresis and repassivation</text></svg>
