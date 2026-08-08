@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img">
-<style>text{font-family:Arial,sans-serif;fill:#10243e}.t{font-size:28px;font-weight:700}.s{font-size:20px}.box{fill:#f7f2e8;stroke:#c7a85b;stroke-width:3}.navy{fill:#10243e}.gold{fill:#c7a85b}.line{stroke:#10243e;stroke-width:4;fill:none}.dash{stroke:#778;stroke-width:3;fill:none;stroke-dasharray:10 8}</style>
-<text x="500" y="45" text-anchor="middle" class="t">Reaction profile: thermodynamics and kinetics</text>
-<path d="M80 420 C180 400 225 405 300 420 C380 435 430 120 520 105 C610 120 655 380 730 360 C815 340 850 350 920 345" class="line"/>
-<line x1="80" y1="470" x2="930" y2="470" class="line"/><line x1="100" y1="500" x2="100" y2="80" class="line"/>
-<text x="190" y="450" class="s">reactant minimum</text><text x="455" y="90" class="s">transition state</text><text x="745" y="390" class="s">product minimum</text>
-<line x1="320" y1="420" x2="320" y2="105" class="dash"/><text x="330" y="260" class="s">ΔG‡</text><line x1="760" y1="420" x2="760" y2="360" class="dash"/><text x="775" y="405" class="s">ΔG°</text>
-<text x="500" y="535" text-anchor="middle" class="s">Frequency analysis plus an IRC/NEB-style path test links the saddle point to the intended minima.</text></svg>
