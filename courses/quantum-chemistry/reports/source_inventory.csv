@@ -1,0 +1,17 @@
+﻿Source ID,Type,Author/Organization,Title,Edition/Year,Main contribution,Topics used,Verification status
+PT1,Textbook,A. C. Phillips,Introduction to Quantum Mechanics,2003,Primary course sequence and core introductory quantum mechanics,Modules 1–10,Examined
+ST1,Textbook,Roger Grinter,The Quantum in Chemistry: An Experimentalist’s View,2005,"Chemistry interpretation, atoms, bonding, spectroscopy","Modules 1,7–12",Examined
+ST2,Textbook,Gary E. Bowman,Essential Quantum Mechanics,2008,"State-space formalism, operators, matrix mechanics, uncertainty",Modules 2–7,Examined
+ST3,Textbook,Jan-Markus Schwindt,Conceptual Basis of Quantum Mechanics,2016,"Hilbert space, measurement, tensor products, interpretations","Modules 2–4,16",Examined
+ST4,Textbook,Michael R. Mueller,Fundamentals of Quantum Chemistry,2002,"Model systems, spectroscopy, approximation, electronic structure",Modules 5–14,Examined
+ST5,Textbook,Stefan Ivanov,Theoretical and Quantum Mechanics: Fundamentals for Chemists,2006,"Classical preparation, wavefunctions, 1D, oscillator, atoms, perturbation","Modules 1,5–10",Examined
+ST6,Textbook,P. A. Cox,Introduction to Quantum Theory and Atomic Structure,1996,"Waves, interference, photons, Schrödinger applications, atomic structure","Modules 1,8",Examined visually / scanned
+ST7,Textbook,Lucjan Piela,Ideas of Quantum Chemistry,2007,"Advanced quantum chemistry, symmetry, correlation, relativistic ideas",Modules 10–16,Examined
+ST8,Textbook,Roos et al.,Multiconfigurational Quantum Chemistry,2016,"HF, basis sets, correlation, MCSCF/CASSCF/RASSCF/CASPT2",Modules 13–15,Examined
+ST9,Textbook,V. Rydnik,ABC’s of Quantum Mechanics,1978/2001,Historical/conceptual development,"Modules 1,16",Examined
+ST10,Textbook excerpt,Bibliographic metadata not visible,Quantum Physics — From Classical to Quantum Mechanics,uploaded extract,Black-body and photoelectric experimental figures,Module 1,Examined
+IS1,Institutional data,NIST/CODATA,2022 CODATA constants,2022 adjustment,Current fundamental constants,Numerical examples/labs,Verified official source
+BEN1,University benchmark,MIT OpenCourseWare,8.04 Quantum Physics I,Spring 2016,International curriculum benchmark,Course architecture,Verified official source
+BEN2,University benchmark,University of Sydney,PHYS2012 Physics 2B,2026,International curriculum benchmark,Course architecture,Verified official source
+BEN3,University benchmark,University of Cape Town,PHY2004W Intermediate Physics,Current official page,International curriculum benchmark,Course architecture,Verified official source
+BEN4,University benchmark,Universidade de São Paulo,4302403 Quantum Mechanics I,Official catalogue,International curriculum benchmark,Course architecture,Verified official source
