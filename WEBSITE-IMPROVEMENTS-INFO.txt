@@ -1,5 +1,0 @@
-Website improvement build
-Created: 2026-07-24 01:24:33 +03:00
-Branch: website-improvements
-Added: official blog page, CV 2025 download, updated About and Research Group images
-Official blog: https://khaledfkhaled.blogspot.com/
