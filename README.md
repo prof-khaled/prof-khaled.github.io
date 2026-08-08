@@ -1,3 +1,7 @@
+# V14 Refinement Note
+
+This package preserves the existing GitHub Pages URL structure and adds compact navigation, the official center name, optimized center visuals, a Google OAuth sign-in path, an expanded Knowledge Hub catalogue, and detailed editing/deployment guides. See `V14-IMPLEMENTATION-REPORT.md` and `CHANGELOG-V14.md`.
+
 # Prof. Dr. Khaled Fouad Khaled — Official Academic Website
 
 نسخة GitHub المحدثة بتاريخ 23 يوليو 2026.
@@ -76,3 +80,7 @@ GitHub Actions ومنح آلية العمل صلاحية القراءة والك
 ## English
 
 Upload the contents of this folder to the repository root. In GitHub, open **Settings → Pages**, choose **Deploy from a branch**, then select **main** and **/(root)**. Keep all filenames and relative folder paths unchanged.
+
+
+## V13 Knowledge Hub and bilingual platform
+See `V13-IMPLEMENTATION-REPORT.md`, `SETUP-KNOWLEDGE-HUB.md`, `SEO-MIGRATION-REPORT.md`, and `SECURITY-REVIEW-V13.md`.
