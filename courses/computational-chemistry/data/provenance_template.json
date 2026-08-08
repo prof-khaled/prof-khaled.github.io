@@ -1,0 +1,9 @@
+{
+  "molecule": {"name": "", "charge": 0, "multiplicity": 1, "geometry_file": ""},
+  "model": {"method": "", "basis_or_forcefield": "", "solvent": "", "dispersion": ""},
+  "software": {"name": "", "version": ""},
+  "task": {"type": "optimization|frequency|singlepoint|MD|other", "temperature_K": 298.15, "standard_state": ""},
+  "numerics": {"scf_threshold": "", "grid": "", "optimization_threshold": ""},
+  "files": {"input": "", "output": "", "script": ""},
+  "validation": {"reference": "", "metric": "", "result": ""}
+}

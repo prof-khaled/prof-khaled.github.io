@@ -1,0 +1,11 @@
+﻿ILO,Taught in modules,Practice,Summative assessment,Bloom
+ILO1,1–10,Concept checks; model-comparison problems,"Midterm, final",Understand/Analyze
+ILO2,"1,3,7–10,14–16",Method-selection cases,"Labs, capstone, final",Analyze/Evaluate
+ILO3,"2–6,11–13",Labs and diagnostics,"Labs, practical problems",Apply/Analyze
+ILO4,"2–6,10–14",Interpretation exercises,Midterm/final/capstone,Analyze
+ILO5,7–16,Convergence/benchmark tasks,Capstone/final,Evaluate
+ILO6,"1,7–16",Benchmark lab,Capstone,Evaluate
+ILO7,"1,15,16",Calculation passport/provenance JSON,Labs/capstone,Create
+ILO8,11–14,Spectra/energy-profile questions,Final/capstone,Analyze/Evaluate
+ILO9,"3,4,10,14–16",Multiscale design activity,Capstone,Create
+ILO10,all,"Captions, reports, peer review",Capstone/final,Create

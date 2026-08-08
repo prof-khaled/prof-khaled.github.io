@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img">
+<style>text{font-family:Arial,sans-serif;fill:#10243e}.t{font-size:28px;font-weight:700}.s{font-size:20px}.box{fill:#f7f2e8;stroke:#c7a85b;stroke-width:3}.navy{fill:#10243e}.gold{fill:#c7a85b}.line{stroke:#10243e;stroke-width:4;fill:none}.dash{stroke:#778;stroke-width:3;fill:none;stroke-dasharray:10 8}</style>
+<text x="500" y="45" text-anchor="middle" class="t">Molecular dynamics time-integration loop</text>
+<circle cx="500" cy="285" r="175" fill="#f7f2e8" stroke="#c7a85b" stroke-width="4"/>
+<text x="500" y="125" text-anchor="middle" class="s">1. positions r(t)</text><text x="650" y="225" class="s">2. forces F = −∇U</text><text x="625" y="390" class="s">3. update velocities</text><text x="270" y="390" class="s">4. update positions</text><text x="260" y="225" class="s">5. thermostat / constraints</text>
+<path d="M500 135 C680 145 705 270 670 315 C620 420 470 465 355 400 C235 330 255 170 420 140" class="line"/>
+<text x="500" y="270" text-anchor="middle" class="t">Δt</text><text x="500" y="305" text-anchor="middle" class="s">trajectory sampling</text>
+<text x="500" y="525" text-anchor="middle" class="s">Observables are ensemble/time averages; energy conservation and timestep stability are diagnostic checks.</text></svg>
