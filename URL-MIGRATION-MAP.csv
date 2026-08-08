@@ -1,0 +1,18 @@
+Old URL,New URL,Action,Redirect Type,Indexed Status
+/index.html,/index.html,Keep,None,Public
+/01-about-prof-khaled.html,/01-about-prof-khaled.html,Keep,None,Public
+/02-academic-career-education.html,/02-academic-career-education.html,Keep,None,Public
+/03-research-scientific-expertise.html,/03-research-scientific-expertise.html,Keep,None,Public
+/04-publications.html,/04-publications.html,Keep,None,Public
+/05-research-projects.html,/05-research-projects.html,Keep,None,Public
+/06-research-group.html,/06-research-group.html,Keep,None,Public
+/07-teaching-courses.html,/07-teaching-courses.html,Keep,None,Public
+/08-books-scientific-activity.html,/08-books-scientific-activity.html,Keep,None,Public
+/09-awards-achievements.html,/09-awards-achievements.html,Keep,None,Public
+/10-scientific-services-training.html,/10-scientific-services-training.html,Keep,None,Public
+/knowledge-hub.html,/knowledge-hub.html,Keep and rebuild,None,Public
+N/A,/auth.html,Add,None,Noindex
+N/A,/knowledge-dashboard.html,Add,None,Noindex
+N/A,/knowledge-admin.html,Add,None,Noindex
+N/A,/terms.html,Add,None,Public
+N/A,/404.html,Add,None,Noindex
