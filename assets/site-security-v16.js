@@ -1,1 +1,0 @@
-(()=>{'use strict';document.querySelectorAll('a[target="_blank"]').forEach(a=>{const s=new Set((a.rel||'').split(/\s+/).filter(Boolean));s.add('noopener');s.add('noreferrer');a.rel=[...s].join(' ');});})();
